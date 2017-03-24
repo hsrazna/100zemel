@@ -36,7 +36,7 @@ gulp.task('scripts', function() {
 
 gulp.task('browser-sync', function() {
 	browserSync({
-		proxy: "irbis.loc",
+		proxy: "100zemel.loc",
 		// server: {
 		// 	baseDir: 'app'
 		// },
