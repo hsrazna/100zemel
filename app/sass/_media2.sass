@@ -41,14 +41,65 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px)
+	/*header-top*/
+	.az-header-top
+		height: 40px
+
+	.az-menu
+		position: relative
+		height: 40px
+		ul
+			display: block
+			position: static
+			top: 100%
+			width: auto
+			padding: 0 0
+			border-top: 0
+			font-size: 0
+			li
+				display: inline-block
+				a
+					font-size: 17px
+					line-height: 40px
+					width: 100%
+					padding: 0px 15px 0 0
+	/*header-top*/
+	.az-header-bottom
+		border: 0
+
+	.az-dashed
+		padding: 20px 0
+		border-bottom: 1px dashed #bababa
+
 	/**/
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px)
+	/*select*/
+	.az-select
+		font-size: 16px
+		select
+			font-size: 16px
+	/*select*/
 	/**/
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px)
+	/*header-top*/
+	.az-menu
+		ul
+			li
+				a
+					font-size: 18px
+					line-height: 40px
+					width: 100%
+					padding: 0px 50px 0 0
+
+	.az-sign-up
+		a
+			font-size: 12px
+			margin-left: 50px
+	/*header-top*/
 	/**/
 
 /* Large Devices, Wide Screens */
