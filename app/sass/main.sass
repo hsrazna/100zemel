@@ -5,8 +5,154 @@
 @import "style"
 
 
-
-
+.ah-news-linkbox
+	text-align: center
+.ah-news-link
+	display: inline-block
+	color: #15baff
+	font-family: "RobotoCondensedBold"
+	font-size: 14px
+	line-height: 16px
+	text-decoration: underline
+	background: url(../img/ah-newsbutt.png) left center no-repeat
+	padding-left: 30px
+	&:hover
+		color: #15baff
+.ah-footer
+	position: relative
+	background: #e4e5ed
+	padding: 15px 0px 10px 0px
+	&::before
+		position: absolute
+		content: ""
+		background: url(../img/ah-footbord.png)
+		width: 100%
+		height: 1px
+		left: 0px
+		top: -3px
+.ah-footer-center
+	text-align: center
+.ah-footer-imgbox1
+	float: none
+	a
+		img
+			margin: 0 auto
+.ah-footer-span
+	display: block
+	font-family: "ArimoRegular"
+	color: #a7a7a7
+	font-size: 12px
+	line-height: 15px
+	margin-bottom: 20px
+.ah-footer-list
+	margin-bottom: 7px
+	li
+		display: inline-block
+		margin-right: 28px
+		&:last-child
+			margin-right: 0px
+		a
+			display: block
+			width: 31px
+			height: 31px
+.ah-odn
+	background: url(../img/ah-odn.png) center center no-repeat
+.ah-inst
+	background: url(../img/ah-inst.png) center center no-repeat
+.ah-fb
+	background: url(../img/ah-fb.png) center center no-repeat
+.ah-vk
+	background: url(../img/ah-vk.png) center center no-repeat
+.ah-news
+	padding: 60px 0px 50px 0px
+.ah-news-wrapp
+	border-bottom: 2px solid #ecf0f1
+	margin: 10px 0px
+.ah-news-text
+	display: block
+	font-family: "ArimoRegular"
+	color: #3b413c
+	font-size: 14px
+	line-height: 20px
+	margin-bottom: 14px
+.ah-news-title
+	display: block
+	font-family: "RobotoCondensedBold"
+	color: #60b000
+	font-size: 20px
+	line-height: 22px
+	margin-bottom: 16px
+.ah-news-data
+	display: inline-block
+	font-family: "ArimoRegular"
+	color: #3b413c
+	font-size: 12px
+	line-height: 20px
+	background: #e4e5ed
+	padding: 0px 6px
+	margin-bottom: 12px
+.ah-podpis
+	height: 225px
+	background: url(../img/ah-signature.jpg) top center no-repeat
+	background-size: cover
+	padding-top: 37px
+.ah-podpis-wrapp
+	position: relative
+.ah-podpis-imgbox
+	position: absolute
+	top: -50%
+	left: 0
+	width: 255px
+	height: 225px
+	background: url(../img/ah-searchmap768.png) top center no-repeat
+	background-size: cover
+.ah-podpis-title
+	display: block
+	font-family: "RobotoCondensedBold"
+	color: #3b413c
+	font-size: 22px
+	line-height: 22px
+	margin-bottom: 20px
+.ah-form
+	position: relative
+	width: 100%
+	input[type="text"]
+		width: 100%
+		height: 40px
+		color: #5c5f62
+		font-family: "RobotoCondensedRegular"
+		color: #3b413c
+		font-size: 16px
+		line-height: 15px
+		outline: none
+		border: 1px solid #d1d1d1
+		border-radius: 6px
+		background: #fff
+		padding-left: 12px
+	input[type="submit"]
+		position: absolute
+		top: 0
+		right: 0
+		width: 118px
+		height: 40px
+		background: #60b000
+		border-radius: 6px
+		border: 1px solid transparent
+		outline: none
+		cursor: pointer
+		font-family: "RobotoCondensedBold"
+		color: #fff
+		font-size: 14px
+		line-height: 15px
+		text-align: center
+		&:hover
+			border: 1px solid #60b000
+			color: #60b000
+			background: #fff
+			transition: background 0.6s ease 0s
+.ah-map-title
+	display: block !important
+	text-align: center
 .ah-popular-box
 	padding: 14px 0px
 	border-bottom: 2px solid #60b000
@@ -34,6 +180,13 @@
 	margin-bottom: 10px
 .ah-popularwrapp
 	margin: 10px 0px
+	background: transparent
+	cursor: pointer
+	border: 5px solid transparent
+	&:hover
+		background: #f1f2f7
+		border: 5px solid #f1f2f7
+		transition: background, border 0.6s ease 0s
 .ah-popular-subtitle
 	display: block
 	font-family: "RobotoCondensedBold"
