@@ -52,4 +52,49 @@ $(function() {
 		$(this).find('.az-options').slideToggle(0);
 		$(this).toggleClass('az-select-focus');
 	});
+
+	jQuery("#az-slider").slider({
+		min: parseInt($("input#minDist").val()),
+		max: $("input#maxDist").val(),
+		values: [$("input#startDist").val(),$("input#endDist").val()],
+		range: true,
+	    stop: function(event, ui) {
+			jQuery("input#startDist").val(jQuery("#az-slider").slider("values",0));
+			jQuery("input#endDist").val(jQuery("#az-slider").slider("values",1));
+			jQuery("span#startDistSpan").text(jQuery("#az-slider").slider("values",0)+" км");
+			jQuery("span#endDistSpan").text(jQuery("#az-slider").slider("values",1)+" км");
+		},
+		slide: function(event, ui){
+			jQuery("input#startDist").val(jQuery("#az-slider").slider("values",0));
+			jQuery("input#endDist").val(jQuery("#az-slider").slider("values",1));
+			jQuery("span#startDistSpan").text(jQuery("#az-slider").slider("values",0)+" км");
+			jQuery("span#endDistSpan").text(jQuery("#az-slider").slider("values",1)+" км");
+		}
+	});
+
+	jQuery("#az-slider2").slider({
+		min: parseInt($("input#minCost").val()),
+		max: $("input#maxCost").val(),
+		values: [$("input#startCost").val(),$("input#endCost").val()],
+		range: true,
+	    stop: function(event, ui) {
+			jQuery("input#startCost").val(jQuery("#az-slider2").slider("values",0));
+			jQuery("input#endCost").val(jQuery("#az-slider2").slider("values",1));
+			jQuery("span#startCostSpan").text(jQuery("#az-slider2").slider("values",0)+" р");
+			jQuery("span#endCostSpan").text(jQuery("#az-slider2").slider("values",1)+" р");
+		},
+		slide: function(event, ui){
+			jQuery("input#startCost").val(jQuery("#az-slider2").slider("values",0));
+			jQuery("input#endCost").val(jQuery("#az-slider2").slider("values",1));
+			jQuery("span#startCostSpan").text(jQuery("#az-slider2").slider("values",0)+" р");
+			jQuery("span#endCostSpan").text(jQuery("#az-slider2").slider("values",1)+" р");
+		}
+	});
+
+	// $(".az-submit input[type=reset]").click(function(){
+	// 	jQuery("#az-slider").slider("values", 0, initialMinimumValue);
+	// 	jQuery("#az-slider").slider("values", 1, initialMaximumValue);
+	// 	jQuery("span#minCost2").text(jQuery("#az-slider").slider("values",0));
+	// 	jQuery("span#maxCost2").text(jQuery("#az-slider").slider("values",1));
+	// });
 });
