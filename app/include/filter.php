@@ -1,24 +1,78 @@
 <section class="az-filter">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-12">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 pull-right">
 				<h1>ВСЕ КОТТЕДЖНЫЕ ПОСЕЛКИ</h1>
 				<div class="az-center">
 					<span class="az-subtitle">и земельные участки Ярославской области</span>
 				</div>
 				<div class="az-region hidden-sm hidden-md hidden-lg">
-					<div class="az-select style2">
+					<div class="az-select style2 change-region">
 						<span class="az-baloon2"></span>
 						<select name="" id="">
 							<option value="Ярославская область">Ярославская область</option>
-							<option value="Московская область">Московская область</option>
+							<option value="Костромская область">Костромская область</option>
+							<option value="Ивановская область">Ивановская область</option>
+							<option value="Владимирская область">Владимирская область</option>
 							<option value="Тверская область">Тверская область</option>
+							<option value="Московская область">Московская область</option>
 						</select>
 					</div>
 				</div>
 			</div>
-			<div class="hidden-xs col-sm-4"></div>
-			<div class="col-xs-12 col-sm-8">
+			<div class="hidden-xs col-sm-4 col-md-4 col-lg-4 pull-left">
+				<div id="az-obls">
+					<div class="az-obl az-obl1">
+						<img src="img/yaroslavl.png" alt="Ярославская область">
+						<div class="az-region-name">
+							<div class="az-region-name-top"><span>Ярославская</span></div>
+							<div class="az-region-name-bottom"><span>область</span></div>
+							<div class="az-change-reg"><a href="#">сменить область</a></div>
+						</div>
+					</div>
+					<div class="az-obl az-obl2" style="display: none;">
+						<img src="img/kostroma.png" alt="Ярославская область">
+						<div class="az-region-name">
+							<div class="az-region-name-top"><span>Костромская</span></div>
+							<div class="az-region-name-bottom"><span>область</span></div>
+							<div class="az-change-reg"><a href="#">сменить область</a></div>
+						</div>
+					</div>
+					<div class="az-obl az-obl3" style="display: none;">
+						<img src="img/Ivanov.png" alt="Ярославская область">
+						<div class="az-region-name">
+							<div class="az-region-name-top"><span>Ивановская</span></div>
+							<div class="az-region-name-bottom"><span>область</span></div>
+							<div class="az-change-reg"><a href="#">сменить область</a></div>
+						</div>
+					</div>
+					<div class="az-obl az-obl4" style="display: none;">
+						<img src="img/vladimir.png" alt="Ярославская область">
+						<div class="az-region-name">
+							<div class="az-region-name-top"><span>Владимирская</span></div>
+							<div class="az-region-name-bottom"><span>область</span></div>
+							<div class="az-change-reg"><a href="#">сменить область</a></div>
+						</div>
+					</div>
+					<div class="az-obl az-obl5" style="display: none;">
+						<img src="img/tver.png" alt="Ярославская область">
+						<div class="az-region-name">
+							<div class="az-region-name-top"><span>Тверская</span></div>
+							<div class="az-region-name-bottom"><span>область</span></div>
+							<div class="az-change-reg"><a href="#">сменить область</a></div>
+						</div>
+					</div>
+					<div class="az-obl az-obl6" style="display: none;">
+						<img src="img/moskva.png" alt="Ярославская область">
+						<div class="az-region-name">
+							<div class="az-region-name-top"><span>Московская</span></div>
+							<div class="az-region-name-bottom"><span>область</span></div>
+							<div class="az-change-reg"><a href="#">сменить область</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 pull-right">
 				<form action="/">
 					<div class="az-filter-wrap">
 						<div class="az-filter-sec1">
@@ -34,22 +88,33 @@
 									</div>
 								</div>
 							</div>
-							<div class="clearfix az-range">
+							<div class="clearfix az-range hidden-sm hidden-md hidden-lg">
 								<div class="az-col2-left">
 									<div><span class="az-span-filter">От</span></div>
-									<div><span class="az-DistSpan" id="startDistSpan">100 км</span></div>
+									<div><span class="az-DistSpan" id="startDistSpan">100 км.</span></div>
 									<input type="text" id="minDist" value="0"/>
 									<input type="text" id="startDist" value="100"/>
 								</div>
 								<div class="az-col2-right">
 									<div><span class="az-span-filter">До</span></div>
-									<div><span class="az-DistSpan" id="endDistSpan">250 км</span></div>
+									<div><span class="az-DistSpan" id="endDistSpan">250 км.</span></div>
 									<input type="text" id="maxDist" value="300"/>
 									<input type="text" id="endDist" value="250"/>
 								</div>
 							</div>
+							<div class="az-shkola hidden-xs">
+								<span>0</span>
+								<span>50 км.</span>
+								<span>100 км.</span>
+								<span>150 км.</span>
+								<span>200 км.</span>
+								<span>250 км.</span>
+								<span>300 км.</span>
+							</div>
 							<div class="az-range-slider">
 								<div id="az-slider"></div>
+								<span class="az-before"></span>
+								<span class="az-after"></span>
 							</div>
 						</div>
 						<div class="az-filter-sec2">
@@ -67,37 +132,44 @@
 							</div>
 							<div class="clearfix az-range">
 								<div class="az-col2-left">
-									<div><span class="az-span-filter">От</span></div>
-									<div><span class="az-DistSpan" id="startCostSpan">500 р</span></div>
+									<div><span class="az-span-filter hidden-sm hidden-md hidden-lg">От</span></div>
+									<div><span class="az-DistSpan" id="startCostSpan">500 р.</span></div>
 									<input type="text" id="minCost" value="0"/>
 									<input type="text" id="startCost" value="500"/>
 								</div>
 								<div class="az-col2-right">
-									<div><span class="az-span-filter">До</span></div>
-									<div><span class="az-DistSpan" id="endCostSpan">50000 р</span></div>
+									<div><span class="az-span-filter hidden-sm hidden-md hidden-lg">До</span></div>
+									<div><span class="az-DistSpan" id="endCostSpan">50000 р.</span></div>
 									<input type="text" id="maxCost" value="100000"/>
 									<input type="text" id="endCost" value="50000"/>
 								</div>
 							</div>
 							<div class="az-range-slider">
 								<div id="az-slider2"></div>
+								<span class="az-before"></span>
+								<span class="az-after"></span>
 							</div>
 						</div>
-						<div class="az-filter-sec3">
-							<div class="clearfix az-sec-t1">
-								<div class="az-col3-left"><span class="az-span-filter margin">Газ:</span></div>
-								<div class="az-col3-right">
-									<div class="az-select style2 style4">
-										<select name="" id="">
-											<option value="Сотку">Не важно</option>
-											<option value="Акр">Важно</option>
-										</select>
+						<div class="az-filter-sec3 clearfix">
+							<div class="az-col4-left">
+								<div class="clearfix az-sec-t1">
+									<div class="az-col3-left"><span class="az-span-filter margin">Газ:</span></div>
+									<div class="az-col3-right">
+										<div class="az-select style2 style4">
+											<select name="" id="">
+												<option value="Сотку">Не важно</option>
+												<option value="Акр">Важно</option>
+											</select>
+										</div>
 									</div>
 								</div>
 							</div>
-							<div class="az-filter-submit">
-								<input type="submit" value="подобрать участок">
+							<div class="az-col4-right">
+								<div class="az-filter-submit">
+									<input type="submit" value="подобрать участок">
+								</div>
 							</div>
+							<div class="pull-right hidden-xs"><a href="#" class="az-adv-search">Расширенный поиск</a></div>
 						</div>
 					</div>
 				</form>

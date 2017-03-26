@@ -18782,14 +18782,14 @@ $(function() {
 	    stop: function(event, ui) {
 			jQuery("input#startDist").val(jQuery("#az-slider").slider("values",0));
 			jQuery("input#endDist").val(jQuery("#az-slider").slider("values",1));
-			jQuery("span#startDistSpan").text(jQuery("#az-slider").slider("values",0)+" км");
-			jQuery("span#endDistSpan").text(jQuery("#az-slider").slider("values",1)+" км");
+			jQuery("span#startDistSpan").text(jQuery("#az-slider").slider("values",0)+" км.");
+			jQuery("span#endDistSpan").text(jQuery("#az-slider").slider("values",1)+" км.");
 		},
 		slide: function(event, ui){
 			jQuery("input#startDist").val(jQuery("#az-slider").slider("values",0));
 			jQuery("input#endDist").val(jQuery("#az-slider").slider("values",1));
-			jQuery("span#startDistSpan").text(jQuery("#az-slider").slider("values",0)+" км");
-			jQuery("span#endDistSpan").text(jQuery("#az-slider").slider("values",1)+" км");
+			jQuery("span#startDistSpan").text(jQuery("#az-slider").slider("values",0)+" км.");
+			jQuery("span#endDistSpan").text(jQuery("#az-slider").slider("values",1)+" км.");
 		}
 	});
 
@@ -18801,14 +18801,14 @@ $(function() {
 	    stop: function(event, ui) {
 			jQuery("input#startCost").val(jQuery("#az-slider2").slider("values",0));
 			jQuery("input#endCost").val(jQuery("#az-slider2").slider("values",1));
-			jQuery("span#startCostSpan").text(jQuery("#az-slider2").slider("values",0)+" р");
-			jQuery("span#endCostSpan").text(jQuery("#az-slider2").slider("values",1)+" р");
+			jQuery("span#startCostSpan").text(jQuery("#az-slider2").slider("values",0)+" р.");
+			jQuery("span#endCostSpan").text(jQuery("#az-slider2").slider("values",1)+" р.");
 		},
 		slide: function(event, ui){
 			jQuery("input#startCost").val(jQuery("#az-slider2").slider("values",0));
 			jQuery("input#endCost").val(jQuery("#az-slider2").slider("values",1));
-			jQuery("span#startCostSpan").text(jQuery("#az-slider2").slider("values",0)+" р");
-			jQuery("span#endCostSpan").text(jQuery("#az-slider2").slider("values",1)+" р");
+			jQuery("span#startCostSpan").text(jQuery("#az-slider2").slider("values",0)+" р.");
+			jQuery("span#endCostSpan").text(jQuery("#az-slider2").slider("values",1)+" р.");
 		}
 	});
 
@@ -18818,4 +18818,18 @@ $(function() {
 	// 	jQuery("span#minCost2").text(jQuery("#az-slider").slider("values",0));
 	// 	jQuery("span#maxCost2").text(jQuery("#az-slider").slider("values",1));
 	// });
+
+	var reg_num = {};//new Array();
+
+	$(".change-region").eq(0).find("option").each(function(i){
+		reg_num[$(this).val()] = i;
+	});
+
+	// alert(reg_num["Тверская область"]);
+
+	$(".change-region div[data-val]").click(function(){
+		$("#az-obls .az-obl").slideUp(0);
+		$("#az-obls .az-obl").eq(reg_num[$(this).attr('data-val')]).slideDown(0);
+	});
+
 });

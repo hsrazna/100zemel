@@ -35,12 +35,15 @@
 					</div>
 				</div>
 				<div class="hidden-xs col-sm-3 col-md-4 col-lg-4">
-					<div class="az-select">
+					<div class="az-select change-region">
 						<span class="az-baloon"></span>
 						<select name="" id="">
 							<option value="Ярославская область">Ярославская область</option>
-							<option value="Московская область">Московская область</option>
+							<option value="Костромская область">Костромская область</option>
+							<option value="Ивановская область">Ивановская область</option>
+							<option value="Владимирская область">Владимирская область</option>
 							<option value="Тверская область">Тверская область</option>
+							<option value="Московская область">Московская область</option>
 						</select>
 					</div>
 				</div>
