@@ -7,6 +7,7 @@
 
 .ah-news-linkbox
 	text-align: center
+	margin-top: 10px
 .ah-news-link
 	display: inline-block
 	color: #15baff
@@ -30,6 +31,7 @@
 		height: 1px
 		left: 0px
 		top: -3px
+		display: none
 .ah-footer-center
 	text-align: center
 .ah-footer-imgbox1
@@ -46,6 +48,7 @@
 	margin-bottom: 20px
 .ah-footer-list
 	margin-bottom: 7px
+	font-size: 0
 	li
 		display: inline-block
 		margin-right: 28px
@@ -64,7 +67,7 @@
 .ah-vk
 	background: url(../img/ah-vk.png) center center no-repeat
 .ah-news
-	padding: 60px 0px 50px 0px
+	padding: 34px 0px 50px 0px//60px 0px 50px 0px
 .ah-news-wrapp
 	border-bottom: 2px solid #ecf0f1
 	margin: 10px 0px
@@ -78,7 +81,7 @@
 .ah-news-title
 	display: block
 	font-family: "RobotoCondensedBold"
-	color: #60b000
+	color: #00B100
 	font-size: 20px
 	line-height: 22px
 	margin-bottom: 16px
@@ -96,6 +99,7 @@
 	background: url(../img/ah-signature.jpg) top center no-repeat
 	background-size: cover
 	padding-top: 37px
+	margin-top: 26px
 .ah-podpis-wrapp
 	position: relative
 .ah-podpis-imgbox
@@ -135,7 +139,7 @@
 		right: 0
 		width: 118px
 		height: 40px
-		background: #60b000
+		background: #00B100
 		border-radius: 6px
 		border: 1px solid transparent
 		outline: none
@@ -146,8 +150,8 @@
 		line-height: 15px
 		text-align: center
 		&:hover
-			border: 1px solid #60b000
-			color: #60b000
+			border: 1px solid #00B100
+			color: #00B100
 			background: #fff
 			transition: background 0.6s ease 0s
 .ah-map-title
@@ -155,9 +159,9 @@
 	text-align: center
 .ah-popular-box
 	padding: 14px 0px
-	border-bottom: 2px solid #60b000
+	border-bottom: 2px solid #00B100
 .ah-popular
-	padding: 45px 0px 10px 0px
+	padding: 25px 0px 10px 0px//45px 0px 10px 0px
 .ah-popular-price
 	display: block
 	font-family: "RobotoCondensedBold"
@@ -177,12 +181,17 @@
 	color: #3b413c
 	font-size: 24px
 	line-height: 15px
-	margin-bottom: 10px
+	margin-bottom: 5px//30px//10px
+	width: 100%
+	text-align: center
 .ah-popularwrapp
-	margin: 10px 0px
+	margin: 10px auto
+	max-width: 400px
 	background: transparent
 	cursor: pointer
 	border: 5px solid transparent
+	img
+		width: 100%
 	&:hover
 		background: #f1f2f7
 		border: 5px solid #f1f2f7
@@ -190,7 +199,7 @@
 .ah-popular-subtitle
 	display: block
 	font-family: "RobotoCondensedBold"
-	color: #60b000
+	color: #00B100
 	font-size: 22px
 	line-height: 20px
 	margin-bottom: 5px
@@ -207,13 +216,22 @@
 	line-height: 20px
 .ah-123box-subtitle
 	display: inline-block
-	color: #60b000
+	color: #00B100
 	font-family: "RobotoCondensedBold"
 	font-size: 22px
 	line-height: 25px
 	text-transform: uppercase
+	position: relative
+	&::after
+		position: absolute
+		bottom: -7px
+		z-index: 2
+		left: 0
+		width: 100%
+		background: #00B100
+		height: 2px
+		content: ""
 .ah-block123
-	background: #f1f2f7
 	padding: 34px 0px 45px 0px
 .ah-123box-title
 	display: block
@@ -231,13 +249,16 @@
 	display: table-cell
 	vertical-align: top
 .ah-123box-left
+	padding-top: 5px
 	width: 25%
 	img
 		margin: 0 auto
 .ah-123box-right
 	width: 75%
 	padding-left: 5px
+	font-size: 0
 .ah-divbord
+	margin: 5px 0
 	position: relative
 	display: inline-block
 	width: 100%
@@ -248,11 +269,12 @@
 	display: inline-block
 	width: 26%
 	height: 100%
-	background: #60b000
+	background: #00B100
 	top: 0
 	left: 0
 
-
+.ah-mapbox
+	padding-top: 23px
 
 
 

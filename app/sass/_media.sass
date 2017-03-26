@@ -35,6 +35,8 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px)
+	.ah-podpis-title
+		text-align: center
 	/**/
 
 /* Small Devices, Tablets */
@@ -56,17 +58,44 @@
 		font-size: 28px
 		line-height: 32px
 		margin-bottom: 20px
+		text-align: left
 	.ah-popular-title
-		font-size: 36px
+		font-size: 30px
 		line-height: 37px
 	.ah-123box-title
-		font-size: 36px
+		font-size: 30px//36px
 		line-height: 15px
 	.ah-123box-text
 		font-size: 14px
 		line-height: 16px
 	.ah-123table
 		padding-left: 20px
+	.ah-block123
+		background: #f1f2f7
+		margin-top: 1px
+		margin-bottom: 1px
+		div[class^="col"]
+			padding: 0
+	.ah-popular-title
+		text-align: left
+	.ah-map-title
+		text-align: center
+	.ah-popular
+		border-top: 1px dashed #bababa
+		margin-top: 1px
+	.ah-podpis
+		margin-top: 1px
+		margin-bottom: 1px
+	.ah-mapbox
+		border-bottom: 1px dashed #bababa
+		padding-bottom: 26px
+	.ah-news
+		border-top: 1px dashed #bababa
+		border-bottom: 1px dashed #bababa
+	.ah-footer
+		margin-top: 1px
+	.ah-mapbox
+		padding-top: 0
 	/**/
 
 /* Medium Devices, Desktops */
@@ -88,7 +117,7 @@
 	.ah-podpis-imgbox
 		position: absolute
 		top: -58%
-		left: -6%
+		left: 0%
 		width: 349px
 		height: 308px
 		background: url(../img/ah-searchmap.png) top center no-repeat
@@ -96,6 +125,26 @@
 	.ah-123box-text
 		font-size: 16px
 		line-height: 20px
+	.ah-popular-title
+		font-size: 36px
+	.ah-123box-title
+		font-size: 36px
+		margin-bottom: 25px
+	.ah-popular
+		padding: 35px 0px 10px 0px
+	.ah-map
+		padding-top: 30px
+	.ah-mapbox
+		padding-top: 15px
+	.ah-news-linkbox
+		text-align: right
+	.ah-news-link
+		color: #00B100
+		background: url(../img/ah-newsbutt-green.png) left center no-repeat
+		&:hover
+			color: #00B100
+	.ah-news
+		padding-bottom: 15px
 	/**/
 
 /* Large Devices, Wide Screens */

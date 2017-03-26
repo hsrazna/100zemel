@@ -26,7 +26,7 @@
 				</div>
 			</div>
 			<div class="clearfix"></div>
-			<div class="hidden-lg hidden-md hidden-sm col-xs-12">
+			<div class="col-lg-12 col-md-12 hidden-sm col-xs-12">
 				<div class="ah-news-linkbox">
 					<a href="#" class="ah-news-link">Все новости</a>
 				</div>
