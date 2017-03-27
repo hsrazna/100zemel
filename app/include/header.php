@@ -31,7 +31,7 @@
 			<div class="row">
 				<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
 					<div class="az-logo">
-						<img src="img/logo.png" alt="100 земель">
+						<a href="/"><img src="img/logo_100z.svg" alt="100 земель"></a>
 					</div>
 				</div>
 				<div class="hidden-xs col-sm-3 col-md-4 col-lg-4">

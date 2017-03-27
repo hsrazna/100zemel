@@ -159,9 +159,12 @@ h1
 		height: 40px
 		line-height: 40px
 		display: inline-block
-		z-index: 1
+		z-index: 4
 		color: #00b4ff
 		font-size: 20px
+		background: #fff
+		width: 28px
+		text-align: right
 	select
 		color: #00b4ff
 		position: relative
@@ -171,8 +174,10 @@ h1
 		height: 40px
 		text-decoration: underline
 		font-size: 14px
+		-o-appearance: none
 		-webkit-appearance: none
 		-moz-appearance: none
+		appearance: none
 	select::-ms-expand
 		display: none;
 
@@ -228,7 +233,7 @@ h1
 	position: absolute
 	top: 0
 	left: 0
-	background: url(../img/az-select.png) no-repeat center
+	background: url(../img/loc.svg) no-repeat center//url(../img/az-select.png) no-repeat center
 /*select*/
 
 /*search*/
@@ -246,7 +251,7 @@ h1
 	input[type="submit"]
 		height: 38px
 		width: 30px
-		background: url(../img/az-search.png) no-repeat center
+		background: url(../img/mag.svg) no-repeat center//url(../img/az-search.png) no-repeat center
 		position: absolute
 		top: 0
 		right: 6px
@@ -388,7 +393,8 @@ h1
 	position: absolute
 	top: 0
 	left: 0
-	background: url(../img/az-select2.png) no-repeat center
+	background: url(../img/loc-black.svg) no-repeat center//url(../img/az-select2.png) no-repeat center
+	background-size: contain
 /*select2*/
 
 .az-filter-wrap
@@ -513,6 +519,7 @@ h1
 	height: 9px
 	border: 1px solid rgba(204, 204, 204, 1);
 	background: #fff
+	outline: none
 
 /*-------------------------*/
 
@@ -573,12 +580,13 @@ h1
 	padding-left: 25px
 	margin-top: 8px
 	text-decoration: underline
-	background: url(../img/az-adv-search.png) no-repeat left center
+	background: url(../img/bin.svg) no-repeat left center//url(../img/az-adv-search.png) no-repeat left center
 	display: inline-block
 	font-size: 14px
 	&:hover
-		text-decoration: none
-		color: #15baff
+		// text-decoration: none
+		background: url(../img/bin-green.svg) no-repeat left center//url(../img/az-adv-search.png) no-repeat left center
+		color: #00B100//#15baff
 
 .az-obl
 	position: relative

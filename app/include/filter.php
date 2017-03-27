@@ -23,7 +23,7 @@
 			<div class="hidden-xs col-sm-4 col-md-4 col-lg-4 pull-left">
 				<div id="az-obls">
 					<div class="az-obl az-obl1">
-						<img src="img/yaroslavl.png" alt="Ярославская область">
+						<img src="img/yaroslavskaya.jpg" alt="Ярославская область">
 						<div class="az-region-name">
 							<div class="az-region-name-top"><span>Ярославская</span></div>
 							<div class="az-region-name-bottom"><span>область</span></div>
@@ -31,7 +31,7 @@
 						</div>
 					</div>
 					<div class="az-obl az-obl2" style="display: none;">
-						<img src="img/kostroma.png" alt="Ярославская область">
+						<img src="img/kostromskaya.jpg" alt="Костромская область">
 						<div class="az-region-name">
 							<div class="az-region-name-top"><span>Костромская</span></div>
 							<div class="az-region-name-bottom"><span>область</span></div>
@@ -39,7 +39,7 @@
 						</div>
 					</div>
 					<div class="az-obl az-obl3" style="display: none;">
-						<img src="img/Ivanov.png" alt="Ярославская область">
+						<img src="img/ivanovsk.jpg" alt="Ивановская область">
 						<div class="az-region-name">
 							<div class="az-region-name-top"><span>Ивановская</span></div>
 							<div class="az-region-name-bottom"><span>область</span></div>
@@ -47,7 +47,7 @@
 						</div>
 					</div>
 					<div class="az-obl az-obl4" style="display: none;">
-						<img src="img/vladimir.png" alt="Ярославская область">
+						<img src="img/vladimirskaya.jpg" alt="Владимирская область">
 						<div class="az-region-name">
 							<div class="az-region-name-top"><span>Владимирская</span></div>
 							<div class="az-region-name-bottom"><span>область</span></div>
@@ -55,7 +55,7 @@
 						</div>
 					</div>
 					<div class="az-obl az-obl5" style="display: none;">
-						<img src="img/tver.png" alt="Ярославская область">
+						<img src="img/tverskaya.jpg" alt="Тверская область">
 						<div class="az-region-name">
 							<div class="az-region-name-top"><span>Тверская</span></div>
 							<div class="az-region-name-bottom"><span>область</span></div>
@@ -63,7 +63,7 @@
 						</div>
 					</div>
 					<div class="az-obl az-obl6" style="display: none;">
-						<img src="img/moskva.png" alt="Ярославская область">
+						<img src="img/mosk.jpg" alt="Московская область">
 						<div class="az-region-name">
 							<div class="az-region-name-top"><span>Московская</span></div>
 							<div class="az-region-name-bottom"><span>область</span></div>

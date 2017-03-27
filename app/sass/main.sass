@@ -15,10 +15,11 @@
 	font-size: 14px
 	line-height: 16px
 	text-decoration: underline
-	background: url(../img/ah-newsbutt.png) left center no-repeat
+	background: url(../img/news.svg) left center no-repeat//url(../img/ah-newsbutt.png) left center no-repeat
 	padding-left: 30px
 	&:hover
-		color: #15baff
+		background: url(../img/news-green.svg) left center no-repeat//url(../img/ah-newsbutt.png) left center no-repeat
+		color: #00B100//#15baff
 .ah-footer
 	position: relative
 	background: #e4e5ed
@@ -71,6 +72,9 @@
 .ah-news-wrapp
 	border-bottom: 2px solid #ecf0f1
 	margin: 10px 0px
+	&:hover
+		.ah-news-text, .ah-news-title
+			text-decoration: underline
 .ah-news-text
 	display: block
 	font-family: "ArimoRegular"
@@ -108,8 +112,8 @@
 	left: 0
 	width: 255px
 	height: 225px
-	background: url(../img/ah-searchmap768.png) top center no-repeat
-	background-size: cover
+	background: url(../img/eart.svg) top center no-repeat//url(../img/ah-searchmap768.png) top center no-repeat
+	background-size: contain
 .ah-podpis-title
 	display: block
 	font-family: "RobotoCondensedBold"
@@ -235,6 +239,7 @@
 		content: ""
 .ah-block123
 	padding: 34px 0px 45px 0px
+	background: #f1f2f7
 .ah-123box-title
 	display: block
 	font-family: "RobotoCondensedBold"
@@ -252,7 +257,7 @@
 	vertical-align: top
 .ah-123box-left
 	padding-top: 5px
-	width: 25%
+	width: 33%//25%
 	img
 		margin: 0 auto
 .ah-123box-right

@@ -4,7 +4,7 @@
 			<div class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
 				<div class="ah-footer-wrapp">
 					<div class="ah-footer-imgbox">
-						<a href="/"><img src="img/logofooter.png" class="img-responsive" alt="logofooter"></a>
+						<a href="/"><img src="img/logo_100z.svg" class="img-responsive" alt="logofooter"></a>
 					</div>
 				</div>
 			</div>
@@ -22,7 +22,7 @@
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 				<div class="ah-footer-wrapp">
 					<div class="ah-footer-imgbox1">
-						<a href="/"><img src="img/companylogo.png" class="img-responsive" alt="companylogo"></a>
+						<a href="/"><img src="img/ws.svg" class="img-responsive" alt="companylogo"></a>
 					</div>
 				</div>
 			</div>
