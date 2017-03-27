@@ -18832,4 +18832,11 @@ $(function() {
 		$("#az-obls .az-obl").eq(reg_num[$(this).attr('data-val')]).slideDown(0);
 	});
 
+	$(".change-region div[data-val]").click(function(){
+	    $("#width_tmp_option").html($('#resizing_select option:selected').text());
+	    $("#resizing_select").width($("#width_tmp_select").width()+5);  
+	 });
+
+	$("#width_tmp_option").html($('#resizing_select option:selected').text());
+    $("#resizing_select").width($("#width_tmp_select").width()+5);  
 });
