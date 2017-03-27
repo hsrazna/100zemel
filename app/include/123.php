@@ -8,7 +8,7 @@
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 				<div class="ah-123box-table">
 					<div class="ah-123box-left">
-						<img src="img/ah-123block1.jpg" class="img-responsive" alt="selection">
+						<img src="img/ah-123block1-w.jpg" class="img-responsive" alt="selection">
 					</div>
 					<div class="ah-123box-right">
 						<span class="ah-123box-subtitle">Выбор</span>
@@ -20,7 +20,7 @@
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 				<div class="ah-123box-table ah-123table">
 					<div class="ah-123box-left">
-						<img src="img/ah-123block2.jpg" class="img-responsive" alt="inspection">
+						<img src="img/ah-123block2-w.jpg" class="img-responsive" alt="inspection">
 					</div>
 					<div class="ah-123box-right">
 						<span class="ah-123box-subtitle">Осмотр</span>
@@ -32,7 +32,7 @@
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 				<div class="ah-123box-table ah-123table">
 					<div class="ah-123box-left">
-						<img src="img/ah-123block3.jpg" class="img-responsive" alt="decor">
+						<img src="img/ah-123block3-w.jpg" class="img-responsive" alt="decor">
 					</div>
 					<div class="ah-123box-right">
 						<span class="ah-123box-subtitle">Оформление</span>
