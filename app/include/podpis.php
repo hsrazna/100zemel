@@ -6,7 +6,7 @@
 		    	<div class="ah-podpis-imgbox hidden-xs"></div>
 		    	<div class="row">
 					<div class="col-lg-6 col-lg-push-3 col-md-6 col-md-push-4 col-sm-7 col-sm-push-4 col-xs-12">
-						<span class="ah-podpis-title">Подпишитесь,чтобы не пропустить<br>выгодные предложения</span>
+						<span class="ah-podpis-title">Подпишитесь,чтобы не пропустить<br> выгодные предложения</span>
 					</div>
 					<div class="clearfix"></div>
 					<div class="col-lg-4 col-lg-push-3 col-md-4 col-md-push-4 col-sm-6 col-sm-push-4 col-xs-12">
