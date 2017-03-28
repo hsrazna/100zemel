@@ -90,13 +90,23 @@ $(function() {
 			jQuery("span#endCostSpan").text(jQuery("#az-slider2").slider("values",1)+" р.");
 		}
 	});
-
-	// $(".az-submit input[type=reset]").click(function(){
-	// 	jQuery("#az-slider").slider("values", 0, initialMinimumValue);
-	// 	jQuery("#az-slider").slider("values", 1, initialMaximumValue);
-	// 	jQuery("span#minCost2").text(jQuery("#az-slider").slider("values",0));
-	// 	jQuery("span#maxCost2").text(jQuery("#az-slider").slider("values",1));
+	// $('#widget')
+	// $("#az-slider").ionRangeSlider({
+	//     type: "double",
+	//     // grid: true,
+	//     min: 0,
+	//     max: 1000,
+	//     from: 200,
+	//     to: 800,
+	//     // prefix: "$"
 	// });
+
+	$(".az-submit input[type=reset]").click(function(){
+		jQuery("#az-slider").slider("values", 0, initialMinimumValue);
+		jQuery("#az-slider").slider("values", 1, initialMaximumValue);
+		jQuery("span#minCost2").text(jQuery("#az-slider").slider("values",0));
+		jQuery("span#maxCost2").text(jQuery("#az-slider").slider("values",1));
+	});
 
 	var reg_num = {};//new Array();
 
@@ -117,5 +127,5 @@ $(function() {
 	 });
 
 	$("#width_tmp_option").html($('#resizing_select option:selected').text());
-    $("#resizing_select").width($("#width_tmp_select").width()+5);  
+  $("#resizing_select").width($("#width_tmp_select").width()+5);  
 });
