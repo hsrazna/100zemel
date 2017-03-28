@@ -18791,7 +18791,7 @@ $(function() {
 			jQuery("span#startDistSpan").text(jQuery("#az-slider").slider("values",0)+" км.");
 			jQuery("span#endDistSpan").text(jQuery("#az-slider").slider("values",1)+" км.");
 		}
-	});
+	}).draggable();
 
 	jQuery("#az-slider2").slider({
 		min: parseInt($("input#minCost").val()),
