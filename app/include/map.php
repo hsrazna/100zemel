@@ -19,8 +19,9 @@
      function init(){     
          myMap = new ymaps.Map("map", {
              center: [57.626569,39.893787],
-             zoom: 8,
-             controls: []
+             zoom: 8
+             // zoom: 8,
+             // controls: []
          });
 
         myMap.behaviors.disable('scrollZoom'); 
@@ -32,6 +33,7 @@
           iconImageOffset: [-3, -42]
       });
          myMap.geoObjects.add(myPlacemark);
+         myMap.controls.add('mapTools');
      }
  </script>
  <div id="map"></div>
