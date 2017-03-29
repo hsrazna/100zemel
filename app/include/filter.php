@@ -7,7 +7,7 @@
 					<span class="az-subtitle">и земельные участки Ярославской области</span>
 				</div>
 				<div class="az-region hidden-sm hidden-md hidden-lg">
-					<div class="az-select style2 change-region">
+					<div class="az-select style2 style5 change-region">
 						<span class="az-baloon2"></span>
 						<select name="" id="">
 							<option value="Ярославская область">Ярославская область</option>
@@ -152,10 +152,13 @@
 						</div>
 						<div class="az-filter-sec3 clearfix">
 							<div class="az-col4-left">
+								<!-- az-sec-t1 -->
 								<div class="clearfix az-sec-t1">
+								<!-- az-col3-left, az-col3-right-->
 									<div class="az-col3-left"><span class="az-span-filter margin">Газ:</span></div>
 									<div class="az-col3-right">
-										<div class="az-select style2 style4">
+										<!-- style4 -->
+										<div class="az-select style2 style3">
 											<select name="" id="">
 												<option value="Сотку">Не важно</option>
 												<option value="Акр">Важно</option>
