@@ -18938,20 +18938,22 @@ $("#startCost").blur(function(){
 	$("#width_tmp_option").html($('#resizing_select option:selected').text());
   $("#resizing_select").width($("#width_tmp_select").width()+5);
 
-	$(window).scroll(function(){
-			if(window.matchMedia( "(max-width: 1200px)" ).matches){
-		    if($(window).scrollTop()>100){
-		        $('.az-header-top').addClass('az-mob-menu-fix');
-		    }else{
-		        $('.az-header-top').removeClass('az-mob-menu-fix');
-		    }
-		    if($(window).scrollTop()>200){
-		        $('.az-header-top').addClass('az-mob-menu-fix2');
-		    }else{
-		        $('.az-header-top').removeClass('az-mob-menu-fix2');
-		    }
-		  } else {
-		  	$('.az-header-top').removeClass('az-mob-menu-fix').removeClass('az-mob-menu-fix2');
-		  }
-	});
+	$( "#tabs" ).tabs();
+
+	// $(window).scroll(function(){
+	// 		if(window.matchMedia( "(max-width: 1200px)" ).matches){
+	// 	    if($(window).scrollTop()>100){
+	// 	        $('.az-header-top').addClass('az-mob-menu-fix');
+	// 	    }else{
+	// 	        $('.az-header-top').removeClass('az-mob-menu-fix');
+	// 	    }
+	// 	    if($(window).scrollTop()>200){
+	// 	        $('.az-header-top').addClass('az-mob-menu-fix2');
+	// 	    }else{
+	// 	        $('.az-header-top').removeClass('az-mob-menu-fix2');
+	// 	    }
+	// 	  } else {
+	// 	  	$('.az-header-top').removeClass('az-mob-menu-fix').removeClass('az-mob-menu-fix2');
+	// 	  }
+	// });
 });
