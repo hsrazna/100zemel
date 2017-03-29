@@ -52,6 +52,9 @@ h1
 	display: table
 
 /*header-top*/
+.az-header-wrap
+	height: 32px
+
 .az-header-top
 	height: 32px
 	background: #2a2e2b
@@ -112,6 +115,29 @@ h1
 		&:hover
 			text-decoration: none
 			color: #60b000
+
+.az-mob-menu-fix
+	position: fixed
+	width: 100%
+	top: 0
+	left: 0
+	z-index: 5
+	height: 0px
+	overflow: hidden
+	z-index: 9999
+
+.az-mob-menu-fix2
+	transition: all 0.5s ease-in-out
+	height: 32px
+	animation: az-visible 1s ease-in-out
+	animation-fill-mode: both
+
+@keyframes az-visible
+	0%
+		overflow: hidden
+	100%
+		overflow: visible
+
 /*header-top*/
 
 /*header-bottom*/
@@ -311,6 +337,8 @@ h1
 			background: #fff
 		&::before
 			z-index: 5
+	&.style5
+		max-width: 405px
 	&::after
 		content: ""
 		position: absolute
@@ -449,12 +477,14 @@ h1
 	float: right
 
 .az-col3-left
-	width: 20%
+	// width: 20%
+	width: 32.13%
 	float: left
 	padding-right: 5px
 
 .az-col3-right
-	width: 80%
+	// width: 80%
+	width: 67.87%
 	float: right
 
 .az-span-filter
@@ -465,8 +495,8 @@ h1
 	display: inline-block
 	&.margin
 		margin-top: 9px
-
-#minDist, #maxDist, #startDist, #endDist, #minCost, #maxCost, #startCost, #endCost
+//#startDist, #endDist, , #startCost, #endCost
+#minDist, #maxDist, #minCost, #maxCost
 	display: none
 /* Ширина слайдера */
 #az-slider
@@ -565,8 +595,9 @@ h1
 	white-space: nowrap
 
 .az-sec-t1
-	width: 180px
+	max-width: 500px
 	margin: 0 auto
+	// width: 180px
 
 .az-sec-t2
 	max-width: 500px

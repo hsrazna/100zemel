@@ -1,30 +1,32 @@
-<header class="az-header-top">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="clearfix">
-					<div class="pull-left">
-						<div class="az-menu">
-							<a href="#" class="az-menu-icon hidden-sm hidden-md hidden-lg"></a>
-							<ul>
-								<li><a href="#">События</a></li>
-								<li><a href="#">Статьи</a></li>
-								<li><a href="#">Каталог поселков</a></li>
-								<li><a href="#">тарифы</a></li>
-							</ul>
+<div class="az-header-wrap">
+	<header class="az-header-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="clearfix">
+						<div class="pull-left">
+							<div class="az-menu">
+								<a href="#" class="az-menu-icon hidden-sm hidden-md hidden-lg"></a>
+								<ul>
+									<li><a href="#">События</a></li>
+									<li><a href="#">Статьи</a></li>
+									<li><a href="#">Каталог поселков</a></li>
+									<li><a href="#">тарифы</a></li>
+								</ul>
+							</div>
 						</div>
-					</div>
-					<div class="pull-right">
-						<div class="az-sign-up hidden-xs">
-							<a href="#">войти как покупатель</a>
-							<a href="#">войти как продавец</a>
+						<div class="pull-right">
+							<div class="az-sign-up hidden-xs">
+								<a href="#">войти как покупатель</a>
+								<a href="#">войти как продавец</a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</header>
+	</header>
+</div>
 <section class="az-header-bottom">
 	<div class="container">
 		<div class="az-dashed">

@@ -7,7 +7,7 @@
 					<span class="az-subtitle">и земельные участки Ярославской области</span>
 				</div>
 				<div class="az-region hidden-sm hidden-md hidden-lg">
-					<div class="az-select style2 change-region">
+					<div class="az-select style2 style5 change-region">
 						<span class="az-baloon2"></span>
 						<select name="" id="">
 							<option value="Ярославская область">Ярославская область</option>
@@ -91,15 +91,15 @@
 							<div class="clearfix az-range hidden-sm hidden-md hidden-lg">
 								<div class="az-col2-left">
 									<div><span class="az-span-filter">От</span></div>
-									<div><span class="az-DistSpan" id="startDistSpan">100 км.</span></div>
+									<!-- <div><span class="az-DistSpan" id="startDistSpan">100 км.</span></div> -->
 									<input type="text" id="minDist" value="0"/>
-									<input type="text" id="startDist" value="100"/>
+									<input type="text" id="startDist" value="100 км." class="az-DistSpan"/>
 								</div>
 								<div class="az-col2-right">
 									<div><span class="az-span-filter">До</span></div>
-									<div><span class="az-DistSpan" id="endDistSpan">250 км.</span></div>
+									<!-- <div><span class="az-DistSpan" id="endDistSpan">250 км.</span></div> -->
 									<input type="text" id="maxDist" value="300"/>
-									<input type="text" id="endDist" value="250"/>
+									<input type="text" id="endDist" value="250 км." class="az-DistSpan"/>
 								</div>
 							</div>
 							<div class="az-shkola hidden-xs">
@@ -133,15 +133,15 @@
 							<div class="clearfix az-range">
 								<div class="az-col2-left">
 									<div><span class="az-span-filter hidden-sm hidden-md hidden-lg">От</span></div>
-									<div><span class="az-DistSpan" id="startCostSpan">500 р.</span></div>
+									<!-- <div><span class="az-DistSpan" id="startCostSpan">500 р.</span></div> -->
 									<input type="text" id="minCost" value="0"/>
-									<input type="text" id="startCost" value="500"/>
+									<input type="text" id="startCost" value="500 р." class="az-DistSpan"/>
 								</div>
 								<div class="az-col2-right">
 									<div><span class="az-span-filter hidden-sm hidden-md hidden-lg">До</span></div>
-									<div><span class="az-DistSpan" id="endCostSpan">50000 р.</span></div>
+									<!-- <div><span class="az-DistSpan" id="endCostSpan">50000 р.</span></div> -->
 									<input type="text" id="maxCost" value="100000"/>
-									<input type="text" id="endCost" value="50000"/>
+									<input type="text" id="endCost" value="50000 р." class="az-DistSpan"/>
 								</div>
 							</div>
 							<div class="az-range-slider">
@@ -152,10 +152,13 @@
 						</div>
 						<div class="az-filter-sec3 clearfix">
 							<div class="az-col4-left">
+								<!-- az-sec-t1 -->
 								<div class="clearfix az-sec-t1">
+								<!-- az-col3-left, az-col3-right-->
 									<div class="az-col3-left"><span class="az-span-filter margin">Газ:</span></div>
 									<div class="az-col3-right">
-										<div class="az-select style2 style4">
+										<!-- style4 -->
+										<div class="az-select style2 style3">
 											<select name="" id="">
 												<option value="Сотку">Не важно</option>
 												<option value="Акр">Важно</option>

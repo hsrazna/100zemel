@@ -38,13 +38,18 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px)
-	.az-col1-left
+	.az-col1-left, .az-col3-left
 		text-align: right
 	/**/
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px)
 	/*header-top*/
+	.az-header-wrap
+		height: 40px
+
+
+
 	.az-header-top
 		height: 40px
 
@@ -66,6 +71,13 @@
 					line-height: 40px
 					width: 100%
 					padding: 0px 15px 0 0
+
+	.az-mob-menu-fix
+		height: 0px
+
+	.az-mob-menu-fix2
+		height: 40px
+
 	/*header-top*/
 	.az-header-bottom
 		border: 0
@@ -215,6 +227,13 @@
 		font-size: 16px
 		select
 			font-size: 16px
+
+	.az-sec-t1
+		margin: 0 auto 0 0
+		max-width: 200px
+
+	.az-col3-left
+		text-align: center
 	/**/
 
 /* Medium Devices, Desktops */
@@ -277,9 +296,6 @@
 	.az-filter-submit
 		width: 230px
 		margin-left: auto
-
-	.az-sec-t1
-		margin: 0 auto 0 0
 
 	.az-obl
 		margin-top: 20px
