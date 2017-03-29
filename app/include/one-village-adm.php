@@ -3,23 +3,184 @@
 		<div class="row">
 			<div class="col-md-12">
 				<h2>Добавление поселка</h2>
-				<div><a href="#" class="az-link az-go-back-link">Вернуться к списку</a></div>
+				<div class="az-mb10"><a href="#" class="az-link az-go-back-link">Вернуться к списку</a></div>
 				<div id="tabs">
-				  <ul>
-				    <li><a href="#tabs-1">Nunc tincidunt</a></li>
-				    <li><a href="#tabs-2">Proin dolor</a></li>
-				    <li><a href="#tabs-3">Aenean lacinia</a></li>
-				  </ul>
-				  <div id="tabs-1">
-				    <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
-				  </div>
-				  <div id="tabs-2">
-				    <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
-				  </div>
-				  <div id="tabs-3">
-				    <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
-				    <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
-				  </div>
+					<ul>
+						<li><a href="#tabs-1">Карточка поселка</a></li>
+						<li><a href="#tabs-2">Межевание участков</a></li>
+					</ul>
+					<div id="tabs-1">
+						<form action="/">
+							<div class="az-vill-section">
+								<div class="az-vs-title"><label for="vill1">Название поселка:<span>*</span></label></div>
+								<div><input type="text" id="vill1" value="Отрадное"></div>
+							</div>
+							<div class="az-vill-section">
+								<div class="az-vs-title"><label for="vill2">Тип поселка:<span>*</span></label></div>
+								<div class="az-select style2 style6">
+									<select name="" id="vill2">
+										<option value="Ярославль">Ярославль</option>
+										<option value="Ярославль2">Ярославль2</option>
+										<option value="Ярославль3">Ярославль3</option>
+									</select>
+								</div>
+							</div>
+							<div class="az-vill-section">
+								<div class="az-vs-title"><label for="vill3">Краткое описание:<span>*</span></label></div>
+								<div><textarea name="" id="vill3">Удобный поселок расположенный в заволжском районе. В поселке есть електричество</textarea></div>
+							</div>
+							<div class="az-vill-section">
+								<div class="az-vs-title"><label for="vill4">Полное описание:<span>*</span></label></div>
+								<div><textarea class="style2" name="" id="vill4">В настоящее время закончено строительство линии электропередач и строительство дорог внутри поселка. Имеется возможность газификации. Первая очередь уже газифицирована. ШРП на границе участка. В настоящее время закончена внутренняя разводка газопровода и по второй </textarea></div>
+							</div>
+							<div class="az-vill-section">
+								<div class="az-vs-title"><label for="vill2">Категория земли:<span>*</span></label></div>
+								<div class="az-select style2 style6">
+									<select name="" id="vill2">
+										<option value="Дачное строительство">Дачное строительство</option>
+										<option value="Дачное строительство2">Дачное строительство2</option>
+										<option value="Дачное строительство3">Дачное строительство3</option>
+									</select>
+								</div>
+							</div>
+							<div class="az-vill-section">
+								<div class="az-vs-title"><label for="vill2">Регион:<span>*</span></label></div>
+								<div class="az-select style2 style6">
+									<select name="" id="vill2">
+										<option value="Ярославская область">Ярославская область</option>
+										<option value="Ярославская область2">Ярославская область2</option>
+										<option value="Ярославская область3">Ярославская область3</option>
+									</select>
+								</div>
+							</div>
+							<div class="az-vill-section">
+								<div class="az-vs-title"><label for="vill2">Район:<span>*</span></label></div>
+								<div class="az-select style2 style6">
+									<select name="" id="vill2">
+										<option value="Борисоглебский район">Борисоглебский район</option>
+										<option value="Борисоглебский район2">Борисоглебский район2</option>
+										<option value="Борисоглебский район3">Борисоглебский район3</option>
+									</select>
+								</div>
+							</div>
+							<div class="az-vill-section">
+								<div class="az-vs-title"><label for="vill2">Электричество:<span>*</span></label></div>
+								<div class="az-select style2 style6">
+									<select name="" id="vill2">
+										<option value="Есть">Есть</option>
+										<option value="Нет">Нет</option>
+									</select>
+								</div>
+							</div>
+							<div class="az-vill-section">
+								<div class="az-vs-title"><label for="vill2">Газ:<span>*</span></label></div>
+								<div class="az-select style2 style6">
+									<select name="" id="vill2">
+										<option value="Есть">Есть</option>
+										<option value="Нет">Нет</option>
+									</select>
+								</div>
+							</div>
+							<div class="az-vill-section">
+								<div class="az-vs-title"><label for="vill2">Канализация:<span>*</span></label></div>
+								<div class="az-select style2 style6">
+									<select name="" id="vill2">
+										<option value="Есть">Есть</option>
+										<option value="Нет">Нет</option>
+									</select>
+								</div>
+							</div>
+							<div class="clearfix">
+								<div class="az-col5-left">
+									<div class="az-vill-section">
+										<div class="az-vs-title"><label for="vill2">Удаленность:<span>*</span></label></div>
+										<div class="az-select style2 style6">
+											<select name="" id="vill2">
+												<option value="Есть">Есть</option>
+												<option value="Нет">Нет</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="az-col5-right">
+									<div class="az-vill-section">
+										<div class="az-vs-title"><label for="vill2">Расстояние:<span>*</span></label></div>
+										<div class="az-select style2 style6">
+											<select name="" id="vill2">
+												<option value="Есть">Есть</option>
+												<option value="Нет">Нет</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="az-mb20">
+								<a href="#" class="az-link style2 az-add">Добавить</a>
+							</div>
+							<div class="az-vill-section">
+								<div class="az-vs-title"><label for="vill1">Общественный транспорт:<span>*</span></label></div>
+								<div><input type="text" id="vill1" value="Маршрутка № 99"></div>
+							</div>
+							<div class="az-vill-section error">
+								<div class="az-vs-title"><label for="vill1">Инфраструктура:<span>*</span></label></div>
+								<div><input type="text" id="vill1" value="Обязательное поле"></div>
+							</div>
+							<div class="az-vill-section">
+								<div class="az-vs-title"><label for="vill1">Примечание:<span>*</span></label></div>
+								<div><input type="text" id="vill1" value="Примечание"></div>
+							</div>
+							<div class="az-vill-section">
+								<div class="az-vs-title"><label for="vill1">Примечание (административное):<span>*</span></label></div>
+								<div><input type="text" id="vill1" value="Примечание"></div>
+							</div>
+							<div class="az-vill-section">
+								<div class="az-vs-title"><label for="vill1">ФИО менеджера:<span>*</span></label></div>
+								<div><input type="text" id="vill1" value="Шуников Александр"></div>
+							</div>
+							<div class="az-vill-section">
+								<div class="az-vs-title"><label for="vill1">Телефон отдела продаж:<span>*</span></label></div>
+								<div><input type="text" id="vill1" value="8-4852-332933"></div>
+							</div>
+							<div class="az-vill-section">
+								<div class="az-vs-title"><label for="vill1">Ценовые категории:<span>*</span></label></div>
+								<div class="clearfix">
+									<div class="az-col-6-1">
+										<div class="az-vill-section style2">
+											<div class="az-vs-title"><label for="vill1">Название:</label></div>
+											<div><input type="text" id="vill1"></div>
+										</div>
+									</div>
+									<div class="az-col-6-2">
+										<div class="az-vill-section style2">
+											<div class="az-vs-title"><label for="vill1">Цена:</label></div>
+											<div><input type="text" id="vill1"></div>
+										</div>
+									</div>
+									<div class="az-col-6-3">
+										<div class="az-vill-section style2">
+											<div class="az-vs-title"><label for="vill1">Цвет:</label></div>
+											<div><input type="text" id="vill1"></div>
+										</div>
+									</div>
+									<div class="az-col-6-4">
+										<div class="az-vill-section style2">
+											<div class="az-vs-title"><label for="vill1">По умолчанию</label></div>
+											<div><input type="text" id="vill1"></div>
+										</div>
+									</div>
+									<div class="az-col-6-5">
+										<div class="az-vill-section style2">
+											<div class="az-vs-title"><label for="vill1">&nbsp;</label></div>
+											<div><a href="#" class="az-link style3 az-del">Удалить</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div id="tabs-2">
+					
+					</div>
 				</div>
 			</div>
 		</div>

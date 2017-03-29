@@ -14,6 +14,8 @@ body
 li
 	list-style-type: none
 
+a, a:hover, a:focus, a:active
+	text-decoration: none
 a, input
 	outline: none !important
 
@@ -350,6 +352,10 @@ h2
 			z-index: 5
 	&.style5
 		max-width: 405px
+	&.style6
+		max-width: 476px
+		margin: 0 auto 0 0
+		padding: 0
 	&::after
 		content: ""
 		position: absolute
@@ -707,10 +713,134 @@ h2
 	text-decoration: underline
 	display: inline-block
 	font-size: 14px
-	//background: url(../img/bin-green.svg) no-repeat left center
 	&:hover
 		color: #00B100
-		//background: url(../img/bin-green.svg) no-repeat left center//url(../img/az-adv-search.png) no-repeat left center
+	&.style2
+		font-size: 16px
+	&.style3
+		margin-top: 10px
 
 .az-go-back-link
-	
+	padding-left: 15px
+	background: url(../img/az-go-back-link.png) no-repeat left center
+	&:hover
+		background: url(../img/az-go-back-link-green.png) no-repeat left center
+
+.az-add
+	padding-left: 18px
+	background: url(../img/az-add.png) no-repeat left center
+	&:hover
+		background: url(../img/az-add-green.png) no-repeat left center
+
+.az-del
+	padding-left: 18px
+	background: url(../img/az-del.png) no-repeat left center
+	&:hover
+		background: url(../img/az-del-green.png) no-repeat left center
+
+#tabs
+	ul
+		font-size: 0
+		background: transparent
+		border-bottom: 1px dashed #bababa
+		padding-bottom: 1px
+		margin-right: -6px
+		margin-left: -6px
+		padding-left: 6px
+		padding-right: 6px
+		li
+			display: inline-block
+			margin-right: 5px
+			&:last-child
+				margin-right: 0
+			a
+				display: inline-block
+				border-radius: 4px 4px 0 0
+				height: 39px
+				padding: 0 8px
+				text-align: center
+				line-height: 39px
+				color: #c4c4c4
+				background: #f1f2f7
+				font-family: "RobotoCondensedBold"
+				font-size: 16px
+			&.ui-tabs-active
+				a
+					background: #f8c301
+					color: #fff
+
+
+.az-mb10
+	margin-bottom: 10px
+.az-mb20
+	margin-bottom: 20px
+
+.az-vill-section
+	padding: 11px 0
+	max-width: 476px
+	.az-vs-title
+		margin-bottom: 3px
+	label
+		font-size: 16px
+		font-weight: normal
+		font-family: "RobotoCondensedBold"
+		color: #3b413c
+		span
+			color: #df0936
+	input
+		width: 100%
+		height: 40px
+		border: 1px solid #d1d1d1
+		border-radius: 4px
+		font-size: 18px
+		padding: 0 10px
+		color: #3b413c
+	textarea
+		width: 100%
+		height: 92px
+		border: 1px solid #d1d1d1
+		border-radius: 4px
+		font-size: 18px
+		line-height: 22px
+		padding: 10px
+		color: #3b413c
+		resize: none
+		&.style2
+			height: 218px
+	&.error
+		label
+			color: #df0936
+		input, textarea, select
+			border: 3px solid #df0936
+			color: #df0936
+
+.az-col5-left
+	float: left
+	width: 62.58%
+
+.az-col5-right
+	float: right
+	width: 37.42%
+	padding-left: 9px
+
+.az-col-6-1
+	float: left
+	width: 58.06%
+
+.az-col-6-2
+	float: left
+	width: 41.94%
+	padding-left: 12px
+
+.az-col-6-3
+	float: left
+	width: 35.48%
+
+.az-col-6-4
+	float: left
+	width: 40.32%
+	padding-left: 21px
+
+.az-col-6-5
+	float: left
+	width: 24.2%
