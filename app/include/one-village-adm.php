@@ -2,6 +2,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
+				<h2>Добавление поселка</h2>
+				<div><a href="#" class="az-link az-go-back-link">Вернуться к списку</a></div>
 				<div id="tabs">
 				  <ul>
 				    <li><a href="#tabs-1">Nunc tincidunt</a></li>
