@@ -1,6 +1,7 @@
 $(function() {
 	$(".az-menu-icon").click(function(){
 		$(this).next().slideToggle(0);
+		return false;
 	});
 
 	$('.az-select').each(function(){
@@ -55,41 +56,117 @@ $(function() {
 
 	jQuery("#az-slider").slider({
 		min: parseInt($("input#minDist").val()),
-		max: $("input#maxDist").val(),
-		values: [$("input#startDist").val(),$("input#endDist").val()],
+		max: parseInt($("input#maxDist").val()),
+		values: [parseInt($("input#startDist").val()),parseInt($("input#endDist").val())],
 		range: true,
 	    stop: function(event, ui) {
-			jQuery("input#startDist").val(jQuery("#az-slider").slider("values",0));
-			jQuery("input#endDist").val(jQuery("#az-slider").slider("values",1));
-			jQuery("span#startDistSpan").text(jQuery("#az-slider").slider("values",0)+" км.");
-			jQuery("span#endDistSpan").text(jQuery("#az-slider").slider("values",1)+" км.");
+			jQuery("input#startDist").val(jQuery("#az-slider").slider("values",0)+" км.");
+			jQuery("input#endDist").val(jQuery("#az-slider").slider("values",1)+" км.");
+			// jQuery("span#startDistSpan").text(jQuery("#az-slider").slider("values",0)+" км.");
+			// jQuery("span#endDistSpan").text(jQuery("#az-slider").slider("values",1)+" км.");
 		},
 		slide: function(event, ui){
-			jQuery("input#startDist").val(jQuery("#az-slider").slider("values",0));
-			jQuery("input#endDist").val(jQuery("#az-slider").slider("values",1));
-			jQuery("span#startDistSpan").text(jQuery("#az-slider").slider("values",0)+" км.");
-			jQuery("span#endDistSpan").text(jQuery("#az-slider").slider("values",1)+" км.");
+			jQuery("input#startDist").val(jQuery("#az-slider").slider("values",0)+" км.");
+			jQuery("input#endDist").val(jQuery("#az-slider").slider("values",1)+" км.");
+			// jQuery("span#startDistSpan").text(jQuery("#az-slider").slider("values",0)+" км.");
+			// jQuery("span#endDistSpan").text(jQuery("#az-slider").slider("values",1)+" км.");
 		}
 	}).draggable();
 
 	jQuery("#az-slider2").slider({
 		min: parseInt($("input#minCost").val()),
-		max: $("input#maxCost").val(),
-		values: [$("input#startCost").val(),$("input#endCost").val()],
+		max: parseInt($("input#maxCost").val()),
+		values: [parseInt($("input#startCost").val()),parseInt($("input#endCost").val())],
 		range: true,
 	    stop: function(event, ui) {
-			jQuery("input#startCost").val(jQuery("#az-slider2").slider("values",0));
-			jQuery("input#endCost").val(jQuery("#az-slider2").slider("values",1));
-			jQuery("span#startCostSpan").text(jQuery("#az-slider2").slider("values",0)+" р.");
-			jQuery("span#endCostSpan").text(jQuery("#az-slider2").slider("values",1)+" р.");
+			jQuery("input#startCost").val(jQuery("#az-slider2").slider("values",0)+" р.");
+			jQuery("input#endCost").val(jQuery("#az-slider2").slider("values",1)+" р.");
+			// jQuery("span#startCostSpan").text(jQuery("#az-slider2").slider("values",0)+" р.");
+			// jQuery("span#endCostSpan").text(jQuery("#az-slider2").slider("values",1)+" р.");
 		},
 		slide: function(event, ui){
-			jQuery("input#startCost").val(jQuery("#az-slider2").slider("values",0));
-			jQuery("input#endCost").val(jQuery("#az-slider2").slider("values",1));
-			jQuery("span#startCostSpan").text(jQuery("#az-slider2").slider("values",0)+" р.");
-			jQuery("span#endCostSpan").text(jQuery("#az-slider2").slider("values",1)+" р.");
+			jQuery("input#startCost").val(jQuery("#az-slider2").slider("values",0)+" р.");
+			jQuery("input#endCost").val(jQuery("#az-slider2").slider("values",1)+" р.");
+			// jQuery("span#startCostSpan").text(jQuery("#az-slider2").slider("values",0)+" р.");
+			// jQuery("span#endCostSpan").text(jQuery("#az-slider2").slider("values",1)+" р.");
 		}
 	});
+
+	$(".az-DistSpan").focus(function(){
+		$(this).val("");
+	});
+
+	$(".az-DistSpan").keypress(function(event){
+		if(event.which == 13 || event.keyCode == 13){
+			$(this).trigger("blur");
+			return false;
+		}
+	});
+
+	$("#startDist").blur(function(){
+		if($(this).val() == ""){
+			$(this).val(jQuery("#az-slider").slider("values",0)+" км.");
+		} else if(isNaN(parseInt($(this).val()))){
+			$(this).val(jQuery("#az-slider").slider("values",0)+" км.");
+		} else{
+			var az_check_max_min = parseInt($(this).val());
+			if(az_check_max_min>=parseInt($("input#minDist").val())&&az_check_max_min<=parseInt($("input#endDist").val())){
+				$(this).val(parseInt($(this).val())+" км.");
+				jQuery("#az-slider").slider("values", 0, parseInt($(this).val()));
+			} else{
+				$(this).val(jQuery("#az-slider").slider("values",0)+" км.");
+			}
+		}
+	});
+
+	$("#endDist").blur(function(){
+		if($(this).val() == ""){
+			$(this).val(jQuery("#az-slider").slider("values",1)+" км.");
+		} else if(isNaN(parseInt($(this).val()))){
+			$(this).val(jQuery("#az-slider").slider("values",1)+" км.");
+		} else{
+			var az_check_max_min = parseInt($(this).val());
+			if(az_check_max_min>=parseInt($("input#startDist").val())&&az_check_max_min<=parseInt($("input#maxDist").val())){
+				$(this).val(parseInt($(this).val())+" км.");
+				jQuery("#az-slider").slider("values", 1, parseInt($(this).val()));
+			} else{
+				$(this).val(jQuery("#az-slider").slider("values",1)+" км.");
+			}
+		}
+	});
+
+$("#startCost").blur(function(){
+		if($(this).val() == ""){
+			$(this).val(jQuery("#az-slider2").slider("values",0)+" р.");
+		} else if(isNaN(parseInt($(this).val()))){
+			$(this).val(jQuery("#az-slider2").slider("values",0)+" р.");
+		} else{
+			var az_check_max_min = parseInt($(this).val());
+			if(az_check_max_min>=parseInt($("input#minCost").val())&&az_check_max_min<=parseInt($("input#endCost").val())){
+				$(this).val(parseInt($(this).val())+" р.");
+				jQuery("#az-slider2").slider("values", 0, parseInt($(this).val()));
+			} else{
+				$(this).val(jQuery("#az-slider2").slider("values",0)+" р.");
+			}
+		}
+	});
+
+	$("#endCost").blur(function(){
+		if($(this).val() == ""){
+			$(this).val(jQuery("#az-slider2").slider("values",1)+" р.");
+		} else if(isNaN(parseInt($(this).val()))){
+			$(this).val(jQuery("#az-slider2").slider("values",1)+" р.");
+		} else{
+			var az_check_max_min = parseInt($(this).val());
+			if(az_check_max_min>=parseInt($("input#startCost").val())&&az_check_max_min<=parseInt($("input#maxCost").val())){
+				$(this).val(parseInt($(this).val())+" р.");
+				jQuery("#az-slider2").slider("values", 1, parseInt($(this).val()));
+			} else{
+				$(this).val(jQuery("#az-slider2").slider("values",1)+" р.");
+			}
+		}
+	});
+
 	// $('#widget')
 	// $("#az-slider").ionRangeSlider({
 	//     type: "double",
@@ -101,12 +178,12 @@ $(function() {
 	//     // prefix: "$"
 	// });
 
-	$(".az-submit input[type=reset]").click(function(){
-		jQuery("#az-slider").slider("values", 0, initialMinimumValue);
-		jQuery("#az-slider").slider("values", 1, initialMaximumValue);
-		jQuery("span#minCost2").text(jQuery("#az-slider").slider("values",0));
-		jQuery("span#maxCost2").text(jQuery("#az-slider").slider("values",1));
-	});
+	// $(".az-submit input[type=reset]").click(function(){
+	// 	jQuery("#az-slider").slider("values", 0, initialMinimumValue);
+	// 	jQuery("#az-slider").slider("values", 1, initialMaximumValue);
+	// 	jQuery("span#minCost2").text(jQuery("#az-slider").slider("values",0));
+	// 	jQuery("span#maxCost2").text(jQuery("#az-slider").slider("values",1));
+	// });
 
 	var reg_num = {};//new Array();
 
@@ -127,5 +204,22 @@ $(function() {
 	 });
 
 	$("#width_tmp_option").html($('#resizing_select option:selected').text());
-  $("#resizing_select").width($("#width_tmp_select").width()+5);  
+  $("#resizing_select").width($("#width_tmp_select").width()+5);
+
+	$(window).scroll(function(){
+			if(window.matchMedia( "(max-width: 1200px)" ).matches){
+		    if($(window).scrollTop()>100){
+		        $('.az-header-top').addClass('az-mob-menu-fix');
+		    }else{
+		        $('.az-header-top').removeClass('az-mob-menu-fix');
+		    }
+		    if($(window).scrollTop()>200){
+		        $('.az-header-top').addClass('az-mob-menu-fix2');
+		    }else{
+		        $('.az-header-top').removeClass('az-mob-menu-fix2');
+		    }
+		  } else {
+		  	$('.az-header-top').removeClass('az-mob-menu-fix').removeClass('az-mob-menu-fix2');
+		  }
+	});
 });
