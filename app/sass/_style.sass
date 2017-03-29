@@ -58,6 +58,11 @@ h1
 .az-header-top
 	height: 32px
 	background: #2a2e2b
+	position: fixed
+	top: 0
+	left: 0
+	width: 100%
+	z-index: 9999
 
 .az-menu-icon
 	width: 20px
@@ -509,6 +514,7 @@ h1
 	position: relative
 	border-radius: 5px
 
+
 /* Ползунок */
 .ui-slider .ui-slider-handle
 	position: absolute;
@@ -531,7 +537,10 @@ h1
 
 /* горизонтальный слайдер (сама полоса по которой бегает ползунок) */
 .ui-slider-horizontal
-	height: 3px /* задаем высоту согласно дизайна */
+	height: 9px
+	border: 1px solid rgba(204, 204, 204, 1);
+	background: #fff
+	// height: 3px /* задаем высоту согласно дизайна */
 
 /* позиционируем ползунки */
 .ui-slider-horizontal .ui-slider-handle
@@ -560,9 +569,6 @@ h1
 
 /* скругление для полосы слайдера */
 .ui-corner-all
-	height: 9px
-	border: 1px solid rgba(204, 204, 204, 1);
-	background: #fff
 	outline: none
 
 /*-------------------------*/
@@ -685,3 +691,7 @@ h1
 .az-obl6
 	.az-region-name
 		top: 42%
+
+/*one village adm*/
+.ui-tabs
+	height: auto
