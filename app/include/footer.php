@@ -11,10 +11,10 @@
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 				<div class="ah-footer-wrapp ah-footer-center">
 					<ul class="ah-footer-list">
-						<li><a href="#" class="ah-odn"></a></li>
-						<li><a href="#" class="ah-inst"></a></li>
 						<li><a href="#" class="ah-fb"></a></li>
 						<li><a href="#" class="ah-vk"></a></li>
+						<li><a href="#" class="ah-inst"></a></li>
+						<li><a href="#" class="ah-odn"></a></li>
 					</ul>
 					<span class="ah-footer-span">Copyright © 2016 «100zemel.ru» Все права защищены.</span>
 				</div>
