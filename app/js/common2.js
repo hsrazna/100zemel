@@ -1,8 +1,20 @@
 $(function() {
-	$(".az-menu-icon").click(function(){
+	$(".az-menu-icon").click(function(e){
 		$(this).next().slideToggle(0);
+		$('html').one('click',function() {
+	    $(".az-menu-icon").next().slideUp(0);
+	  });
+		e.stopPropagation();
 		return false;
 	});
+
+	$(window).scroll(function(){
+		$(".az-menu-icon").next().slideUp(0);
+	});
+
+	// $(window).click(function(){
+	// 	if(){}
+	// });
 
 	$('.az-select').each(function(){
 		var select = $(this);    
