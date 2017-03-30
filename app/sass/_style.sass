@@ -33,6 +33,7 @@ h2
 	color: #3b413c
 	font-family: "RobotoCondensedBold"
 	margin: 5px 0
+	font-weight: normal
 
 .container
 	padding-left: 6px
@@ -715,10 +716,11 @@ h2
 	text-decoration: underline
 	display: inline-block
 	font-size: 14px
+	font-family: "RobotoCondensedRegular"
 	&:hover
 		color: #00B100
 	&.style2
-		font-size: 16px
+		font-size: 18px
 	&.style3
 		margin-top: 10px
 
@@ -811,7 +813,19 @@ h2
 			height: 218px
 	input[type="file"]
 		display: none
-
+	input[type="submit"]
+		width: 182px
+		height: 40px
+		background: #60b000
+		display: inline-block
+		color: #fff
+		font-size: 18px
+		text-transform: uppercase
+		font-family: "RobotoCondensedBold"
+		border: 1px solid #60b000
+		&:hover
+			background: #fff
+			color: #60b000
 	&.error
 		label
 			color: #df0936
@@ -823,15 +837,21 @@ h2
 		label
 			font-size: 14px
 			font-family: "RobotoCondensedRegular"
+	&.style3
+		padding: 0 0 20px 0
+	&.style4
+		overflow: hidden
 
 .az-col5-left
 	float: left
 	width: 62.58%
+	// max-width: 476px
 
 .az-col5-right
 	float: right
 	width: 37.42%
 	padding-left: 9px
+	// min-width: calc(100% - 476px)
 
 .az-col-6-1
 	float: left
@@ -891,7 +911,6 @@ h2
 		height: auto
 
 .az-vill-section
-	overflow: hidden
 	.az-file-button
 		width: 107px
 		height: 27px
@@ -946,3 +965,6 @@ h2
 
 .az-galary
 	margin-bottom: 15px
+
+.az-sel-two
+	max-width: 476px
