@@ -482,6 +482,7 @@ h2
 	padding: 18px 0px 33px
 
 .az-col1-left
+	min-width: calc(100% - 250px)
 	width: 32.13%
 	float: left
 	padding-right: 5px
@@ -492,15 +493,16 @@ h2
 .az-col1-right
 	width: 67.87%
 	float: right
+	max-width: 250px
 
 .az-col3-left
-	// width: 20%
+	min-width: calc(100% - 250px)
 	width: 32.13%
 	float: left
 	padding-right: 5px
 
 .az-col3-right
-	// width: 80%
+	max-width: 250px
 	width: 67.87%
 	float: right
 
@@ -614,12 +616,12 @@ h2
 
 .az-sec-t1
 	max-width: 500px
-	margin: 0 auto
+	margin: 0 0 0 auto
 	// width: 180px
 
 .az-sec-t2
 	max-width: 500px
-	margin: 0 auto
+	margin: 0 0 0 auto
 
 .az-filter-submit
 	padding-top: 28px
@@ -807,12 +809,20 @@ h2
 		resize: none
 		&.style2
 			height: 218px
+	input[type="file"]
+		display: none
+
 	&.error
 		label
 			color: #df0936
 		input, textarea, select
 			border: 3px solid #df0936
 			color: #df0936
+	&.style2
+		padding: 2px 0
+		label
+			font-size: 14px
+			font-family: "RobotoCondensedRegular"
 
 .az-col5-left
 	float: left
@@ -844,3 +854,84 @@ h2
 .az-col-6-5
 	float: left
 	width: 24.2%
+
+.az-def
+	width: 20px
+	height: 20px
+	border: 1px solid #d1d1d1
+	border-radius: 50%
+	margin-top: 10px
+	display: inline-block
+
+.jscolor
+	cursor: pointer
+
+.az-col-6-left
+	width: 185px
+	float: left
+
+.az-col-6-right
+	width: calc(100% - 185px)
+	float: left
+	padding-left: 13px
+
+.az-logo-load
+	width: 100%
+	height: 185px
+	padding: 5px
+	border: 1px solid #d1d1d1
+	line-height: 175px
+	text-align: center
+	font-size: 0
+	img
+		display: inline-block
+		max-width: 100%
+		width: auto
+		max-height: 100%
+		height: auto
+
+.az-vill-section
+	.az-file-button
+		width: 107px
+		height: 27px
+		border-radius: 5px
+		background: #60b000
+		display: inline-block
+		font-weight: normal
+		text-align: center
+		font-family: "RobotoCondensedBold"
+		color: #fff
+		border: 1px solid #60b000
+		cursor: pointer
+		&:hover
+			background: #fff
+			color: #60b000
+
+.az-col-8
+	float: left
+	width: 49.5%
+	margin-right: 1%
+	font-size: 0
+	&:nth-child(2n)
+		margin-right: 0
+
+.az-galery-box
+	height: 100px
+	text-align: center
+	line-height: 98px
+	border: 1px solid #d1d1d1
+	position: relative
+	img
+		display: inline-block
+		max-width: 100%
+		width: auto
+		max-height: 100%
+		height: auto
+	.az-del-gal
+		position: absolute
+		bottom: 0
+		right: 0
+		width: 22px
+		height: 22px
+		display: inline-block
+		background: rgba(0,0,0,0.5) url(../img/az-del-gal.png) no-repeat center

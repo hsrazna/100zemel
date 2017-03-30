@@ -208,6 +208,14 @@ $("#startCost").blur(function(){
 
 	$( "#tabs" ).tabs();
 
+
+
+	$('.az-file-input').change(function(e){
+	  $("#logo-example-img").attr("src", URL.createObjectURL(e.target.files[0]));
+	  $(this).siblings('.az-file-name').text($(this).val().substring($(this).val().lastIndexOf('\\')+1,$(this).val().length));
+	  // $(this).siblings('input[type="hidden"]').attr('value', $(this).val().substring($(this).val().lastIndexOf('\\')+1,$(this).val().length));
+	});
+
 	// $(window).scroll(function(){
 	// 		if(window.matchMedia( "(max-width: 1200px)" ).matches){
 	// 	    if($(window).scrollTop()>100){

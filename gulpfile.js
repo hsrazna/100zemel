@@ -22,6 +22,7 @@ gulp.task('scripts', function() {
 		// 'app/libs/bootstrap/bootstrap.min.js',
 		'app/libs/jquery-ui/jquery-ui.js',
 		'app/libs/jquery-ui/jquery.ui.touch-punch.min.js',
+		'app/libs/jscolor-2.0.4/jscolor.min.js',
 		// 'app/libs/jquery.mobile/jquery.mobile-1.4.5.js',
 		// 'app/libs/ion-rangeSlider/ion.rangeSlider.min.js',
 		'app/libs/owl.carousel/owl.carousel.min.js',

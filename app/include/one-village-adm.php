@@ -159,19 +159,74 @@
 									<div class="az-col-6-3">
 										<div class="az-vill-section style2">
 											<div class="az-vs-title"><label for="vill1">Цвет:</label></div>
-											<div><input type="text" id="vill1"></div>
+											<div><input class="jscolor" value="ab2567"></div>
 										</div>
 									</div>
 									<div class="az-col-6-4">
 										<div class="az-vill-section style2">
 											<div class="az-vs-title"><label for="vill1">По умолчанию</label></div>
-											<div><input type="text" id="vill1"></div>
+											<div><a href="#" class="az-def"></a></div>
 										</div>
 									</div>
 									<div class="az-col-6-5">
 										<div class="az-vill-section style2">
 											<div class="az-vs-title"><label for="vill1">&nbsp;</label></div>
 											<div><a href="#" class="az-link style3 az-del">Удалить</a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="az-mb20">
+								<a href="#" class="az-link style2 az-add">Добавить</a>
+							</div>
+							<div class="az-vill-section">
+								<div class="az-vs-title"><label for="vill1">E-mail отдела продаж:<span>*</span></label></div>
+								<div><input type="text" id="vill1" value="332933@gmail.com"></div>
+							</div>
+							<div class="az-vill-section">
+								<div class="az-vs-title"><label for="vill1">Логотип:<span>*</span></label></div>
+								<div class="clearfix az-file">
+									<div class="az-col-6-left">
+										<div class="az-logo-load">
+											<img src="img/logo-example.png" alt="миниатюра" id="logo-example-img">
+										</div>
+									</div>
+									<div class="az-col-6-right">
+										<input class="az-file-input" type="file" name="" id="logo-example">
+										<label for="logo-example" class="az-file-button az-mb10">выбрать файл</label>
+										<span class="az-file-name">файл не выбран</span>
+									</div>
+								</div>
+							</div>
+							<div class="az-vill-section">
+								<div class="az-vs-title"><label for="vill1">Фотогалерея:<span>*</span></label></div>
+								<div class="clearfix">
+									<div class="az-col-8">
+										<div class="az-galery-box">
+												<img src="img/az-galary-item.png" alt="галерея">
+												<a href="#" class="az-del-gal"></a>
+											<input type="file" name="" id="">
+										</div>
+									</div>
+									<div class="az-col-8">
+										<div class="az-galery-box">
+											<img src="img/az-galary-item.png" alt="галерея">
+											<a href="#" class="az-del-gal"></a>
+											<input type="file" name="" id="">
+										</div>
+									</div>
+									<div class="az-col-8">
+										<div class="az-galery-box">
+											<img src="img/az-galary-item.png" alt="галерея">
+											<a href="#" class="az-del-gal"></a>
+											<input type="file" name="" id="">
+										</div>
+									</div>
+									<div class="az-col-8">
+										<div class="az-galery-box">
+											<img src="img/az-galary-item.png" alt="галерея">
+											<a href="#" class="az-del-gal"></a>
+											<input type="file" name="" id="">
 										</div>
 									</div>
 								</div>
