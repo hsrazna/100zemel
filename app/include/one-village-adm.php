@@ -234,7 +234,7 @@
 								<div class="az-mb20 az-sm-m10">
 									<a href="#" class="az-link style2 az-add">Добавить</a>
 								</div>
-								<div class="az-vill-section style3 az-center">
+								<div class="az-vill-section style3 az-center az-sm-left">
 									<input type="submit" value="обновить">
 								</div>
 							</form>
