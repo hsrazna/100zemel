@@ -333,7 +333,7 @@ h2
 	display: block
 	background: #fff
 	box-sizing: border-box
-	margin: 0 auto
+	margin: 0 0 0 auto
 	&.style3
 		padding: 0
 		background: transparent
@@ -891,6 +891,7 @@ h2
 		height: auto
 
 .az-vill-section
+	overflow: hidden
 	.az-file-button
 		width: 107px
 		height: 27px
@@ -903,15 +904,22 @@ h2
 		color: #fff
 		border: 1px solid #60b000
 		cursor: pointer
+		margin-right: 15px
 		&:hover
 			background: #fff
 			color: #60b000
+	.az-galary-name, .az-file-name
+		font-size: 14px
+		color: #3b413c
+		font-family: "RobotoCondensedBold"
+
 
 .az-col-8
 	float: left
 	width: 49.5%
 	margin-right: 1%
 	font-size: 0
+	margin-bottom: 10px
 	&:nth-child(2n)
 		margin-right: 0
 
@@ -935,3 +943,6 @@ h2
 		height: 22px
 		display: inline-block
 		background: rgba(0,0,0,0.5) url(../img/az-del-gal.png) no-repeat center
+
+.az-galary
+	margin-bottom: 15px

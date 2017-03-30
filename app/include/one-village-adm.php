@@ -200,36 +200,35 @@
 							</div>
 							<div class="az-vill-section">
 								<div class="az-vs-title"><label for="vill1">Фотогалерея:<span>*</span></label></div>
-								<div class="clearfix">
+								<div class="clearfix az-galary" id="az-galary">
 									<div class="az-col-8">
 										<div class="az-galery-box">
-												<img src="img/az-galary-item.png" alt="галерея">
-												<a href="#" class="az-del-gal"></a>
-											<input type="file" name="" id="">
+											<img src="img/az-galary-item.png" alt="галерея">
+											<a href="#" class="az-del-gal"></a>
 										</div>
 									</div>
 									<div class="az-col-8">
 										<div class="az-galery-box">
 											<img src="img/az-galary-item.png" alt="галерея">
 											<a href="#" class="az-del-gal"></a>
-											<input type="file" name="" id="">
 										</div>
 									</div>
 									<div class="az-col-8">
 										<div class="az-galery-box">
 											<img src="img/az-galary-item.png" alt="галерея">
 											<a href="#" class="az-del-gal"></a>
-											<input type="file" name="" id="">
 										</div>
 									</div>
 									<div class="az-col-8">
 										<div class="az-galery-box">
 											<img src="img/az-galary-item.png" alt="галерея">
 											<a href="#" class="az-del-gal"></a>
-											<input type="file" name="" id="">
 										</div>
 									</div>
 								</div>
+								<input class="az-galary-input" type="file" name="" id="galary-example">
+								<label for="galary-example" class="az-file-button az-mb10">выбрать файл</label>
+								<span class="az-galary-name">файл не выбран</span>
 							</div>
 						</form>
 					</div>

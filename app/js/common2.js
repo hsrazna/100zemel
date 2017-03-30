@@ -228,6 +228,15 @@ $("#startCost").blur(function(){
 	  // $(this).siblings('input[type="hidden"]').attr('value', $(this).val().substring($(this).val().lastIndexOf('\\')+1,$(this).val().length));
 	});
 
+	// var file_name = 1;
+
+	// $('.az-galary-input').change(function(e){
+	//   $("#az-galary").after('<input class="az-galary-input" type="file" name="" id="galary-example">').append($(this).removeAttr("id").attr("name", "galary-item"+file_name));
+	//   file_name++
+	//   // $(this).siblings('.az-file-name').text($(this).val().substring($(this).val().lastIndexOf('\\')+1,$(this).val().length));
+	//   // $(this).siblings('input[type="hidden"]').attr('value', $(this).val().substring($(this).val().lastIndexOf('\\')+1,$(this).val().length));
+	// });
+
 	// $(window).scroll(function(){
 	// 		if(window.matchMedia( "(max-width: 1200px)" ).matches){
 	// 	    if($(window).scrollTop()>100){
