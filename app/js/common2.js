@@ -1,8 +1,20 @@
 $(function() {
-	$(".az-menu-icon").click(function(){
+	$(".az-menu-icon").click(function(e){
 		$(this).next().slideToggle(0);
+		$('html').one('click',function() {
+	    $(".az-menu-icon").next().slideUp(0);
+	  });
+		e.stopPropagation();
 		return false;
 	});
+
+	$(window).scroll(function(){
+		$(".az-menu-icon").next().slideUp(0);
+	});
+
+	// $(window).click(function(){
+	// 	if(){}
+	// });
 
 	$('.az-select').each(function(){
 		var select = $(this);    
@@ -215,6 +227,15 @@ $("#startCost").blur(function(){
 	  $(this).siblings('.az-file-name').text($(this).val().substring($(this).val().lastIndexOf('\\')+1,$(this).val().length));
 	  // $(this).siblings('input[type="hidden"]').attr('value', $(this).val().substring($(this).val().lastIndexOf('\\')+1,$(this).val().length));
 	});
+
+	// var file_name = 1;
+
+	// $('.az-galary-input').change(function(e){
+	//   $("#az-galary").after('<input class="az-galary-input" type="file" name="" id="galary-example">').append($(this).removeAttr("id").attr("name", "galary-item"+file_name));
+	//   file_name++
+	//   // $(this).siblings('.az-file-name').text($(this).val().substring($(this).val().lastIndexOf('\\')+1,$(this).val().length));
+	//   // $(this).siblings('input[type="hidden"]').attr('value', $(this).val().substring($(this).val().lastIndexOf('\\')+1,$(this).val().length));
+	// });
 
 	// $(window).scroll(function(){
 	// 		if(window.matchMedia( "(max-width: 1200px)" ).matches){
