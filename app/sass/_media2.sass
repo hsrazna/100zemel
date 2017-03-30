@@ -332,6 +332,13 @@
 
 	.az-sm-left
 		text-align: left
+
+	.az-col-8
+		width: 32.66%
+		&:nth-child(2n)
+			margin-right: 1%
+		&:nth-child(3n)
+			margin-right: 0
 	/**/
 
 /* Medium Devices, Desktops */
@@ -410,6 +417,93 @@
 				a
 					font-size: 12px
 					line-height: 20px
+
+	.az-vill-section
+		width: 100%
+		max-width: 100%
+		&::after
+			display: table
+			content: ""
+			clear: both
+		>div:first-child
+			width: 25%
+			float: left
+			text-align: right
+		>div:last-child
+			width: 42.3%
+			float: left
+			padding-left: 17px
+		&.style-sm-2
+			>div:last-child
+				width: 42.3%
+				max-width: 205px
+		&.style2
+			>div:first-child
+				width: 100%
+				float: none
+				text-align: left
+			>div:last-child
+				width: 100%
+				float: left
+				padding-left: 0
+		&.style5
+			>div:first-child
+				width: 25%
+			>div:last-child
+				width: 75%
+			>.az-vs-title
+				margin-top: 40px
+		input[type="submit"]
+			margin-left: calc(25% + 18px)
+			margin-top: 25px
+			margin-bottom: 60px
+
+	.az-sel-two
+		width: 100%
+		max-width: 100%
+
+	.az-col5-left
+		width: 67.3%
+		.az-vill-section
+			>div:first-child
+				width: 37.2%
+			>div:last-child
+				width: 62.8%
+
+	.az-col5-right
+		width: 32.7%
+		padding-left: 18px
+		.az-vill-section
+			>div:first-child
+				width: 29.1%
+			>div:last-child
+				width: 40%
+				padding-left: 12px
+
+	.az-vs-title
+		margin-top: 5px
+	
+	.az-lg-ml25
+		margin-left: calc(25% + 18px)
+		margin-top: 25px
+
+	.az-col-6-1
+		width: 23.9%
+
+	.az-col-6-2
+		width: 16.5%
+		padding-left: 28px
+
+	.az-col-6-3
+		width: 15.2%
+		padding-left: 28px
+
+	.az-col-6-4
+		width: 17%
+		padding-left: 18px
+
+	.az-col-6-5
+		width: 14%
 	/**/
 
 /* Large Devices, Wide Screens */
