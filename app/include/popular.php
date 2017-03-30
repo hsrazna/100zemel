@@ -105,7 +105,7 @@
 			</div>
 			<div class="clearfix"></div>
 			<div class="col-lg-12 col-md-12 hidden-sm col-xs-12">
-				<div class="ah-news-linkbox">
+				<div class="ah-news-linkbox ah-popular-linkbox">
 					<a href="#" class="ah-news-link">Посмотреть другие популярные объекты</a>
 				</div>
 			</div>
