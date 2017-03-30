@@ -232,6 +232,80 @@
 
 	.az-col3-left
 		text-align: center
+
+	h2
+		font-size: 32px
+		position: relative
+		span
+			position: relative
+			z-index: 3
+			background: #fff
+			padding-right: 7px
+			display: inline-block
+		&::after
+			content: ""
+			position: absolute
+			bottom: 10px
+			left: 0
+			width: 100%
+			height: 2px
+			z-index: 2
+			background: #e1e1e1
+
+	#tabs
+		ul
+			margin-right: 0px
+			margin-left: 0px
+			padding-left: 0px
+			padding-right: 0px
+			li
+				margin-right: 15px
+				a
+					border-radius: 5px 5px 0 0
+					padding: 0 30px
+					font-size: 22px
+
+	.az-first-tab
+		padding: 0 60px
+
+	.az-vill-section
+		padding: 35px 0 0
+		.az-vs-title
+			margin-bottom: 5px
+		label
+			font-size: 18px
+		&.style2
+			padding: 4px 0
+
+	.az-sm-mt10
+		margin: 10px 0 0
+
+	.az-sm-m10
+		margin: 10px 0
+
+	.az-vill-section
+		.az-select.style2
+			font-size: 18px
+			select
+				font-size: 18px
+		.az-file-button
+			font-size: 14px
+	&.style-sm-2
+		max-width: 206px
+
+	.az-sel-two
+		max-width: 598px
+		width: 100%
+
+	.az-col5-left
+		float: left
+		width: 476px
+
+	.az-col5-right
+		float: right
+		width: calc(100% - 476px)
+		padding-left: 9px
+		// min-width: calc(100% - 476px)
 	/**/
 
 /* Medium Devices, Desktops */

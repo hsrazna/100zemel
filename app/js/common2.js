@@ -230,6 +230,19 @@ $("#startCost").blur(function(){
 
 	// var file_name = 1;
 
+	$('.az-galary-input').change(function(e){
+	  $("#az-galary").append('<div class="az-col-8">'+
+										'<div class="az-galery-box">'+
+											'<img src="'+URL.createObjectURL(e.target.files[0])+'" alt="галерея">'+
+											'<a href="#" class="az-del-gal"></a>'+
+										'</div>'+
+									'</div>');
+});
+
+	$("body").on("click", ".az-del-gal", function(){
+		$(this).parents(".az-galery-box").parent().remove();
+		return false;
+	})
 	// $('.az-galary-input').change(function(e){
 	//   $("#az-galary").after('<input class="az-galary-input" type="file" name="" id="galary-example">').append($(this).removeAttr("id").attr("name", "galary-item"+file_name));
 	//   file_name++
