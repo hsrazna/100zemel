@@ -33,6 +33,9 @@
 <body>
 
 	<?php require_once "include/header.php"; ?>
+	<div class="hidden-xs">
+	<?php require_once "include/breadcrumbs.php"; ?>
+	</div>
 	<?php require_once "include/one-village-adm.php"; ?>
 	<?php require_once "include/footer.php"; ?>
 
