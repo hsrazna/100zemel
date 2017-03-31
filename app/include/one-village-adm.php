@@ -270,7 +270,7 @@
 						<div class="az-second-tab">
 							<form action="/">
 								<div class="az-st2-title hidden-xs hidden-sm hidden-md"><span>Заявка на выгрузку</span></div>
-								<div class="az-vill-section2">
+								<div class="az-vill-section2 lg-style2">
 									<div class="az-vs-title"><label for="vill1">Файл с координатами: <span>(необязательно)</span></label></div>
 									<div>
 										<input class="az-file-input" type="file" name="" id="gps-file">
@@ -283,7 +283,7 @@
 									<div><textarea name="" id="">В настоящее время закончено строительство линии электропередач и строительство дорог внутри поселка. Имеется возможность газификации. Первая очередь уже газифицирована. ШРП на границе участка. В настоящее время закончена внутренняя разводка газопровода и по второй очереди. Удачное место для постоянного места жительства: близость города, транспортная доступность, рядом жилые районы города.</textarea></div>
 								</div>
 								<div class="az-vill-section2 style2">
-									<div class="az-vs-title"><label for="vill1">Отправить заявку на выгрузку данных:</label></div>
+									<div class="az-vs-title"><label for="vill1">Отправить заявку<br>на выгрузку данных:</label></div>
 									<div><input type="submit" value="отправить"></div>
 								</div>
 							</form>
@@ -324,7 +324,7 @@
 							    Выбранные участки: <span>участок №123, участок №321</span>
 							</div>
 							<div class="configuratepriceType">
-						        Ценовая категория:&nbsp;&nbsp;
+						        Ценовая категория:
 						        <div>
 							        <div class="az-select style2 style6">
 										<select name="" id="vill2">
@@ -338,7 +338,7 @@
 						        </div>
 						    </div>
 						    <div class="configurateSectorStatus">
-						        Статусы участков:&nbsp;&nbsp;
+						        Статусы участков:
 						        <div>
 							        <div class="az-select style2 style6">
 										<select name="" id="vill2">
@@ -368,10 +368,12 @@
 							<form action="/">
 								<div class="az-result">
 									<div class="az-result-title"><span>Результирующий файл с координатами:</span></div>
-									<div class="az-res-down"><a href="#" class="az-link style4 az-down">Скачать</a>
+									<div>
+										<div class="az-res-down"><a href="#" class="az-link style4 az-down">Скачать</a>
+										</div>
+										<div class="az-res-text"><span>Участки из выгрузки добавлены к поселку</span></div>
+										<div class="az-res-submit"><input type="submit" value="сбросить"></div>
 									</div>
-									<div class="az-res-text"><span>Участки из выгрузки добавлены к поселку</span></div>
-									<div class="az-res-submit"><input type="submit" value="сбросить"></div>
 								</div>
 							</form>
 						</div>

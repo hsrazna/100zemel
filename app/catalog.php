@@ -34,7 +34,8 @@
 
 	<?php require_once "include/header.php"; ?>
 	<?php require_once "include/breadcrumbs.php"; ?>
-	<?php require_once "include/one-village-adm.php"; ?>
+	<?php require_once "include/filter2.php"; ?>
+	<?php require_once "include/catalog-tabs.php"; ?>
 	<?php require_once "include/footer.php"; ?>
 
 	<div class="hidden">
