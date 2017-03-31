@@ -269,6 +269,7 @@
 					<div id="tabs-2">
 						<div class="az-second-tab">
 							<form action="/">
+								<div class="az-st2-title hidden-xs hidden-sm hidden-md"><span>Заявка на выгрузку</span></div>
 								<div class="az-vill-section2">
 									<div class="az-vs-title"><label for="vill1">Файл с координатами: <span>(необязательно)</span></label></div>
 									<div>
@@ -324,26 +325,30 @@
 							</div>
 							<div class="configuratepriceType">
 						        Ценовая категория:&nbsp;&nbsp;
-						        <div class="az-select style2 style6">
-									<select name="" id="vill2">
-										<option value="Есть">Есть</option>
-										<option value="Нет">Нет</option>
-									</select>
-								</div>
-						        <a href="#" class="addSectorPriceType">Применить</a>
-						        &nbsp;&nbsp;<img src="img/ajax-loader.gif">
-						        &nbsp;&nbsp;<label class="success">Успешно применено!</label>
+						        <div>
+							        <div class="az-select style2 style6">
+										<select name="" id="vill2">
+											<option value="Есть">Есть</option>
+											<option value="Нет">Нет</option>
+										</select>
+									</div>
+							        <a href="#" class="addSectorPriceType">Применить</a>
+							        &nbsp;&nbsp;<img src="img/ajax-loader.gif">
+							        &nbsp;&nbsp;<label class="success">Успешно применено!</label>
+						        </div>
 						    </div>
 						    <div class="configurateSectorStatus">
 						        Статусы участков:&nbsp;&nbsp;
-						        <div class="az-select style2 style6">
-									<select name="" id="vill2">
-										<option value="Есть">Есть</option>
-										<option value="Нет">Нет</option>
-									</select>
+						        <div>
+							        <div class="az-select style2 style6">
+										<select name="" id="vill2">
+											<option value="Есть">Есть</option>
+											<option value="Нет">Нет</option>
+										</select>
+									</div>
+							        <a href="#" class="addSectorStatusType">Применить</a>
+							        &nbsp;&nbsp;<label class="fail">Произошла ошибка!</label>
 								</div>
-						        <a href="#" class="addSectorStatusType">Применить</a>
-						        &nbsp;&nbsp;<label class="fail">Произошла ошибка!</label>
 						    </div>
 						    <div class="az-borders az-request">
 						    	<div class="az-request-title"><span>Заявка была ранее подана.</span></div>
