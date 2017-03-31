@@ -7,6 +7,42 @@
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<form action="/">
 					<div class="az-filter-wrap style2">
+						<div class="az-filter-sec0 clearfix hidden-xs">
+							<div class="az-fs0-col">
+								<div class="az-sc-top"><span>Водопровод:</span></div>
+								<div class="az-select style2 style6">
+									<select name="">
+										<option value="Есть">Борисоглебский район</option>
+										<option value="Нет">Борисоглебский район2</option>
+										<option value="Нет">Борисоглебский район3</option>
+										<option value="Нет">Борисоглебский район4</option>
+									</select>
+								</div>
+							</div>
+							<div class="az-fs0-col">
+								<div class="az-sc-top"><span>Водопровод:</span></div>
+								<div class="az-select style2 style6">
+									<select name="">
+										<option value="Есть">Борисоглебский район</option>
+										<option value="Нет">Борисоглебский район2</option>
+										<option value="Нет">Борисоглебский район3</option>
+										<option value="Нет">Борисоглебский район4</option>
+									</select>
+								</div>
+							</div>
+							<div class="az-fs0-col">
+								<div class="az-sc-top"><span>Водопровод:</span></div>
+								<div class="az-select style2 style6">
+									<select name="">
+										<option value="Есть">Борисоглебский район</option>
+										<option value="Нет">Борисоглебский район2</option>
+										<option value="Нет">Борисоглебский район3</option>
+										<option value="Нет">Борисоглебский район4</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<hr class="hidden-xs">
 						<div class="az-filter-sec1">
 							<div class="clearfix az-sec-t2">
 								<div class="az-col1-left"><span class="az-span-filter">Удаленность от города:</span></div>
@@ -47,6 +83,7 @@
 								<span class="az-after"></span>
 							</div>
 						</div>
+						<hr class="hidden-xs">
 						<div class="az-filter-sec2">
 							<div class="clearfix az-sec-t2">
 								<div class="az-col1-left"><span class="az-span-filter margin">Стоимость за:</span></div>
@@ -78,7 +115,8 @@
 								<span class="az-after"></span>
 							</div>
 						</div>
-						<div class="az-filter-sec3 clearfix">
+						<hr class="hidden-xs">
+						<div class="az-filter-sec3 clearfix hidden-sm hidden-md hidden-lg">
 							<div class="az-col4-left">
 								<div class="clearfix az-sec-t1">
 									<div class="az-col3-left"><span class="az-span-filter margin">Газ:</span></div>
@@ -95,7 +133,6 @@
 							<div class="az-col4-right">
 								
 							</div>
-							<div class="pull-right hidden-xs"><a href="#" class="az-adv-search">Расширенный поиск</a></div>
 						</div>
 						<div class="az-filter-sec4">
 							<div class="az-cont-word">
@@ -104,7 +141,7 @@
 							</div>
 						</div>
 						<div class="az-filter-sec5">
-							<div class="az-sel-sec az-sel-sec1">
+							<div class="az-sel-sec az-sel-sec1 hidden-sm hidden-md hidden-lg">
 								<div class="az-sc-top"><span>Район:</span></div>
 								<div class="az-sc-bottom">
 									<div class="az-select style2 style6">
@@ -117,7 +154,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="az-sel-sec az-sel-sec1">
+							<div class="az-sel-sec az-sel-sec1 hidden-sm hidden-md hidden-lg">
 								<div class="az-sc-top"><span>Статус участка:</span></div>
 								<div class="az-sc-bottom">
 									<div class="az-select style2 style6">
@@ -175,7 +212,7 @@
 								</div>
 							</div>
 							<div class="az-sel-sec az-sel-sec1">
-								<div class="az-sc-top"><span>Водоем в непосредственной близости:</span></div>
+								<div class="az-sc-top"><span>Водоем<span class="hidden-sm hidden-md hidden-lg"> в непосредственной близости:</span></span></div>
 								<div class="az-sc-bottom">
 									<div class="az-select style2 style6">
 										<select name="">
@@ -186,7 +223,7 @@
 								</div>
 							</div>
 							<div class="az-sel-sec az-sel-sec1">
-								<div class="az-sc-top"><span>Лес в непосредственной близости:</span></div>
+								<div class="az-sc-top"><span>Лес<span class="hidden-sm hidden-md hidden-lg"> в непосредственной близости:</span></span></div>
 								<div class="az-sc-bottom">
 									<div class="az-select style2 style6">
 										<select name="">
