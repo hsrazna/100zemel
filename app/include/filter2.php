@@ -142,92 +142,69 @@
 								</div>
 							</div>
 							<div class="az-sel-sec az-sel-sec1">
-								<div class="az-sc-top"><span>Район:</span></div>
+								<div class="az-sc-top"><span>Газ:</span></div>
 								<div class="az-sc-bottom">
 									<div class="az-select style2 style6">
 										<select name="">
-											<option value="Есть">Борисоглебский район</option>
-											<option value="Нет">Борисоглебский район2</option>
-											<option value="Нет">Борисоглебский район3</option>
-											<option value="Нет">Борисоглебский район4</option>
+											<option value="Есть">Есть</option>
+											<option value="Нет">Нет</option>
 										</select>
 									</div>
 								</div>
 							</div>
 							<div class="az-sel-sec az-sel-sec1">
-								<div class="az-sc-top"><span>Район:</span></div>
+								<div class="az-sc-top"><span>Канализация:</span></div>
 								<div class="az-sc-bottom">
 									<div class="az-select style2 style6">
 										<select name="">
-											<option value="Есть">Борисоглебский район</option>
-											<option value="Нет">Борисоглебский район2</option>
-											<option value="Нет">Борисоглебский район3</option>
-											<option value="Нет">Борисоглебский район4</option>
+											<option value="Есть">Есть</option>
+											<option value="Нет">Нет</option>
 										</select>
 									</div>
 								</div>
 							</div>
 							<div class="az-sel-sec az-sel-sec1">
-								<div class="az-sc-top"><span>Район:</span></div>
+								<div class="az-sc-top"><span>Водопровод:</span></div>
 								<div class="az-sc-bottom">
 									<div class="az-select style2 style6">
 										<select name="">
-											<option value="Есть">Борисоглебский район</option>
-											<option value="Нет">Борисоглебский район2</option>
-											<option value="Нет">Борисоглебский район3</option>
-											<option value="Нет">Борисоглебский район4</option>
+											<option value="Есть">Есть</option>
+											<option value="Нет">Нет</option>
 										</select>
 									</div>
 								</div>
 							</div>
 							<div class="az-sel-sec az-sel-sec1">
-								<div class="az-sc-top"><span>Район:</span></div>
+								<div class="az-sc-top"><span>Водоем в непосредственной близости:</span></div>
 								<div class="az-sc-bottom">
 									<div class="az-select style2 style6">
 										<select name="">
-											<option value="Есть">Борисоглебский район</option>
-											<option value="Нет">Борисоглебский район2</option>
-											<option value="Нет">Борисоглебский район3</option>
-											<option value="Нет">Борисоглебский район4</option>
+											<option value="Есть">Есть</option>
+											<option value="Нет">Нет</option>
 										</select>
 									</div>
 								</div>
 							</div>
 							<div class="az-sel-sec az-sel-sec1">
-								<div class="az-sc-top"><span>Район:</span></div>
+								<div class="az-sc-top"><span>Лес в непосредственной близости:</span></div>
 								<div class="az-sc-bottom">
 									<div class="az-select style2 style6">
 										<select name="">
-											<option value="Есть">Борисоглебский район</option>
-											<option value="Нет">Борисоглебский район2</option>
-											<option value="Нет">Борисоглебский район3</option>
-											<option value="Нет">Борисоглебский район4</option>
+											<option value="Есть">Есть</option>
+											<option value="Нет">Нет</option>
 										</select>
 									</div>
 								</div>
 							</div>
 							<div class="az-sel-sec az-sel-sec1">
-								<div class="az-sc-top"><span>Район:</span></div>
+								<div class="az-sc-top"><span>Подъездные пути:</span></div>
 								<div class="az-sc-bottom">
 									<div class="az-select style2 style6">
 										<select name="">
-											<option value="Есть">Борисоглебский район</option>
-											<option value="Нет">Борисоглебский район2</option>
-											<option value="Нет">Борисоглебский район3</option>
-											<option value="Нет">Борисоглебский район4</option>
-										</select>
-									</div>
-								</div>
-							</div>
-							<div class="az-sel-sec az-sel-sec1">
-								<div class="az-sc-top"><span>Район:</span></div>
-								<div class="az-sc-bottom">
-									<div class="az-select style2 style6">
-										<select name="">
-											<option value="Есть">Борисоглебский район</option>
-											<option value="Нет">Борисоглебский район2</option>
-											<option value="Нет">Борисоглебский район3</option>
-											<option value="Нет">Борисоглебский район4</option>
+											<option value="Есть">Асфальтовое покрытие</option>
+											<option value="Нет">Асфальтовое покрытие2</option>
+											<option value="Нет">Асфальтовое покрытие3</option>
+											<option value="Нет">Асфальтовое покрытие4</option>
 										</select>
 									</div>
 								</div>
@@ -235,7 +212,7 @@
 						</div>
 						<div>
 							<div class="az-filter-submit">
-								<input type="submit" value="подобрать участок">
+								<input type="submit" value="Найти">
 							</div>
 						</div>
 					</div>

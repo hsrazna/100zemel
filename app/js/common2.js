@@ -218,7 +218,7 @@ $("#startCost").blur(function(){
 	$("#width_tmp_option").html($('#resizing_select option:selected').text());
   $("#resizing_select").width($("#width_tmp_select").width()+5);
 
-	$( "#tabs" ).tabs({ active: 1 });
+	$( "#tabs" ).tabs({ active: 0 });
 
 
 
