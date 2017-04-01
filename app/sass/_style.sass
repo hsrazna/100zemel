@@ -1292,4 +1292,83 @@ h2
 		background: #d0d0d0
 		margin: 0
 
+#cat-tabs
+	text-align: center
+	ul
+		font-size: 0
+		display: inline-block
+		background: transparent
+		li
+			margin-right: 23px
+			display: inline-block
+			vertical-align: top
+			background: transparent
+			&:last-child
+				margin-right: 0
+			a
+				color: #bababa
+				text-decoration: underline
+				display: inline-block
+				font-size: 14px
+				font-family: "RobotoCondensedRegular"
+			.az-map
+				padding-left: 20px
+				background: url(../img/az-map.png) no-repeat left center
+			.az-list
+				padding-left: 20px
+				background: url(../img/az-list.png) no-repeat left center
+			&.ui-state-active
+				a
+					color: #15baff
+					&.az-map
+						background: url(../img/az-map-active.png) no-repeat left center
+					&.az-list
+						background: url(../img/az-list-active.png) no-repeat left center
 
+.az-list-item
+	padding: 15px 0 5px
+	border-bottom: 1px dashed #bababa
+	&::after
+		display: table
+		clear: both
+		content: ""
+	p
+		margin-top: 13px
+		font-size: 14px
+		color: #3b413c
+		line-height: 22px
+		text-align: left
+
+.az-li-img
+	width: 80px
+	height: 80px
+	float: left
+	text-align: center
+	line-height: 78px
+	font-size: 0
+	border: 1px solid #bababa
+	img
+		max-width: 100%
+		width: auto
+		max-height: 100%
+		height: auto
+
+.az-li-title
+	color: #3b413c
+	font-size: 18px
+	line-height: 20px
+	width: calc(100% - 80px)
+	min-height: 80px
+	display: inline-block
+	text-align: left
+	padding-left: 10px
+	font-family: "RobotoCondensedBold"
+
+.az-cat-tabs
+	padding-bottom: 26px
+
+.az-cat-map-wrap
+	padding-top: 15px
+	#cat-map
+		width: 100%
+		height: 600px

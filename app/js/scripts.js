@@ -18961,6 +18961,7 @@ $("#startCost").blur(function(){
   $("#resizing_select").width($("#width_tmp_select").width()+5);
 
 	$( "#tabs" ).tabs({ active: 0 });
+	$( "#cat-tabs" ).tabs({ active: 0 });
 
 
 
