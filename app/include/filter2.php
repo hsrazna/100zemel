@@ -9,7 +9,7 @@
 					<div class="az-filter-wrap style2">
 						<div class="az-filter-sec0 clearfix hidden-xs">
 							<div class="az-fs0-col">
-								<div class="az-sc-top"><span>Водопровод:</span></div>
+								<div class="az-sc-top"><span>Статус участка:</span></div>
 								<div class="az-select style2 style6">
 									<select name="">
 										<option value="Есть">Борисоглебский район</option>
@@ -20,7 +20,7 @@
 								</div>
 							</div>
 							<div class="az-fs0-col">
-								<div class="az-sc-top"><span>Водопровод:</span></div>
+								<div class="az-sc-top"><span>Район:</span></div>
 								<div class="az-select style2 style6">
 									<select name="">
 										<option value="Есть">Борисоглебский район</option>
@@ -31,7 +31,7 @@
 								</div>
 							</div>
 							<div class="az-fs0-col">
-								<div class="az-sc-top"><span>Водопровод:</span></div>
+								<div class="az-sc-top"><span>Категория земли:</span></div>
 								<div class="az-select style2 style6">
 									<select name="">
 										<option value="Есть">Борисоглебский район</option>

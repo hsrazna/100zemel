@@ -415,14 +415,20 @@
 	.az-filter2
 		.az-sec-t2
 			margin: 0 auto 0 0
+			width: 33.5%
+			padding-right: 15px
 			.az-col1-left, .az-col1-right
 				float: none
 				text-align: left
 			.az-col1-left
 				line-height: 20px
 				height: 20px
+				width: 100%
+				max-width: 100%
 			.az-col1-right
 				padding-top: 3px
+				width: 100%
+				max-width: 100%
 		.az-span-filter.margin
 			margin-top: 0
 		.az-filter-sec2
@@ -437,11 +443,27 @@
 			text-align: left
 			input[type="submit"]
 				width: 183px
+		.az-select.style2.style3
+			margin: 0 auto 0 0
+			max-width: 100%
+		.az-shkola
+			margin-top: 10px
+			span
+				font-size: 14px
+		.az-filter-sec5
+			margin-left: -7px
+			margin-right: -7px
+			>div
+				width: 21%
+				float: left
+				padding: 0 7px
+			>div:nth-child(4n+1)
+				width: 37%
+			&::after
+				display: table
+				clear: both
+				content: ""
 
-	.az-shkola
-		margin-top: 10px
-		span
-			font-size: 14px
 
 	.az-cw-top
 		display: inline-block
@@ -451,19 +473,6 @@
 		max-width: 230px
 		margin-left: 12px
 
-	.az-filter-sec5
-		margin-left: -7px
-		margin-right: -7px
-		>div
-			width: 21%
-			float: left
-			padding: 0 7px
-		>div:nth-child(4n+1)
-			width: 37%
-		&::after
-			display: table
-			clear: both
-			content: ""
 
 	.az-filter-wrap.style2
 		padding-bottom: 18px
@@ -477,6 +486,10 @@
 		select
 			font-size: 16px
 	/*select*/
+
+	// .az-filter2
+	// 	.az-sec-t2
+	// 		padding-right: 10px
 	/**/
 
 /* Large Devices, Wide Screens */
@@ -754,6 +767,22 @@
 		line-height: 20px
 		span
 			line-height: 20px
+
+	.az-filter-wrap.style2
+		padding: 0 15px 18px
+
+	.az-filter2
+		.az-filter-sec0
+			max-width: 978px
+		.az-filter-sec1, .az-filter-sec2, .az-filter-sec3, .az-filter-sec4
+			max-width: 958px
+		.az-filter-sec5
+			max-width: 972px
+		.az-filter-submit
+			margin-left: 0
+
+
+
 	/**/
 
 /* Large Devices, Wide Screens */
