@@ -9,7 +9,9 @@ $(function() {
 	});
 
 	$(window).scroll(function(){
-		$(".az-menu-icon").next().slideUp(0);
+		if(window.matchMedia( "(max-width: 768px)" ).matches){
+			$(".az-menu-icon").next().slideUp(0);
+		}
 	});
 
 	// $(window).click(function(){

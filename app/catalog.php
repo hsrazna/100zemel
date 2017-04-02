@@ -38,7 +38,7 @@
 	<?php require_once "include/catalog-tabs.php"; ?>
 	<?php require_once "include/footer.php"; ?>
 
-	<div class="hidden">
+	<!-- <div class="hidden">
 		<form id="small-dialog" class="zoom-anim-dialog common-form">
 			<div class="ah-upimg">
 				<img src="img/ah-popimg.png" style="width: 110px; height: 120px;" alt="ah-popimg.png">
@@ -48,7 +48,7 @@
 			<input type="text" class="phone" name="tel" placeholder="+7 (___) ___-__-__">
 			<input type="submit" value="ОСТАВИТЬ ЗАЯВКУ">
 		</form>
-	</div>
+	</div> -->
 
 	<script src="js/scripts.js"></script>
 
