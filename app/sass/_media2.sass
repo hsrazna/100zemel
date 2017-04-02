@@ -515,13 +515,75 @@
 	.az-tt-left
 		display: none
 
+	.az-tt-right
+		text-align: center
+		width: 100%
+		padding: 0
+
 	.az-tarif-table
 		display: inline-block
 		vertical-align: top
 		border: 0
+		width: 16.66%
+		border-right: 1px solid #d4d4d4
 		&:first-child
+			width: 50%
+			.az-tt-head
+				width: 33.33%
+				margin-left: auto
 			.az-tt-left
 				display: inline-block
+				width: 66.66%
+			.az-tt-right
+				width: 33.33%
+			.az-tt-foot
+				width: 33.33%
+				margin-left: auto
+		&:last-child
+			border-right: 0
+
+	.az-tt-price
+		font-size: 20px
+		padding: 10px 0
+
+	.az-tt-bye
+		padding: 0 5px
+		margin: 0
+		a
+			width: 100%
+			font-size: 13px
+
+	.az-tt-head
+		background: #fff
+		color: #3b413c
+		font-size: 20px
+		line-height: 30px
+
+	.az-tt-soon
+		&::after
+			bottom: 9px
+			color: #60b000
+			font-size: 14px
+			line-height: 18px
+			text-transform: none
+
+	.az-notice-wrap
+		margin-top: 25px
+		padding-top: 10px
+		padding-bottom: 35px
+		border-top: 1px solid #e1e1e1
+
+	.az-quick-start
+		border-bottom: 1px dashed #bababa
+
+	.az-qs-foot
+		.az-tt-bye
+			a
+				font-size: 18px
+
+	.az-notice
+		color: #3b413c
+
 
 	/**/
 
@@ -840,6 +902,50 @@
 	.az-li-cont
 		width: calc(100% - 180px)
 		padding-left: 18px
+
+	/*tariff*/
+
+	.az-tt-price
+		font-size: 22px
+		padding: 20px 0
+
+	.az-tt-bye
+		padding: 0 10px
+		a
+			font-size: 18px
+
+	.az-tarif-table
+		.az-tt-row:first-child
+			line-height: 60px
+			height: 60px
+
+	.az-tt-head
+		font-size: 22px
+		line-height: 60px
+		height: 60px
+
+	.az-tt-soon
+		&::after
+			bottom: 6px
+
+	.az-tt-left
+		span
+			font-size: 18px
+			line-height: 18px
+
+	.az-tt-right
+		font-size: 18px
+
+	.az-quick-start-list
+		li
+			font-size: 18px
+
+	.az-notice
+		font-size: 16px
+		margin-bottom: 6px
+
+	.az-quick-start
+		margin-top: 10px
 	/**/
 
 /* Large Devices, Wide Screens */
