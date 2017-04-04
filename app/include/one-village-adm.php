@@ -186,8 +186,8 @@
 											</div>
 											<div class="az-col-6-4">
 												<div class="az-vill-section style2">
-													<div class="az-vs-title"><label for="vill1">По умолчанию</label></div>
-													<div><a href="#" class="az-def"></a></div>
+													<div class="az-vs-title"><label for="az-def-ragio">По умолчанию</label></div>
+													<div><input type="radio" id="az-def-ragio" class="az-def"><label for="az-def-ragio"></label></div>
 												</div>
 											</div>
 											<div class="az-col-6-5">
@@ -230,30 +230,29 @@
 											<div class="az-col-8">
 												<div class="az-galery-box">
 													<img src="img/az-galary-item.png" alt="галерея">
-													<a href="#" class="az-del-gal"></a>
+													<a href="#" class="az-del-gal delFileByStamp"></a>
 												</div>
 											</div>
 											<div class="az-col-8">
 												<div class="az-galery-box">
 													<img src="img/az-galary-item.png" alt="галерея">
-													<a href="#" class="az-del-gal"></a>
+													<a href="#" class="az-del-gal delFileByStamp"></a>
 												</div>
 											</div>
 											<div class="az-col-8">
 												<div class="az-galery-box">
 													<img src="img/az-galary-item.png" alt="галерея">
-													<a href="#" class="az-del-gal"></a>
+													<a href="#" class="az-del-gal delFileByStamp"></a>
 												</div>
 											</div>
 											<div class="az-col-8">
 												<div class="az-galery-box">
 													<img src="img/az-galary-item.png" alt="галерея">
-													<a href="#" class="az-del-gal"></a>
+													<a href="#" class="az-del-gal delFileByStamp"></a>
 												</div>
 											</div>
 										</div>
-										<input class="az-galary-input" type="file" accept="image/*" name="" id="galary-example">
-										<label for="galary-example" class="az-file-button az-mb10">выбрать файл</label>
+										<a id="chooseGalleryImage" class="az-file-button az-mb10" id="">выбрать файл</a>
 										<span class="az-galary-name">файл не выбран</span>
 									</div>
 								</div>
