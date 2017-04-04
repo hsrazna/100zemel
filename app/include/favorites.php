@@ -14,6 +14,22 @@
 						<div class="az-fi-cont">
 							<div class="az-fi-title">Коттеджный поселок «Отрадное»</div>
 							<div class="az-fi-subtitle">Участок №19</div>
+							<div class="az-cont-info">
+								<div class="az-ci-right"><a href="#" class="az-link style4">Подробнее</a></div>
+								<div class="az-ci-left">
+									<div class="az-dots">
+										<div class="az-d-left">Площадь:</div>
+										<div class="az-d-right">30 соток</div>
+									</div>
+									<div class="az-dots">
+										<div class="az-d-left">Цена:</div>
+										<div class="az-d-right">5 000 000 р.</div>
+									</div>
+									<div class="az-mtb10">
+										<a href="#" class="az-link style4 az-add-not">Добавить заметку</a>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

@@ -48,7 +48,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="az-vill-section">
+								<div class="az-vill-section error">
 									<div class="az-vs-title"><label for="vill2">Регион:<span>*</span></label></div>
 									<div>
 										<div class="az-select style2 style6">

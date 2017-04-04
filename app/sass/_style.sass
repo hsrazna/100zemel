@@ -16,8 +16,13 @@ li
 
 a, a:hover, a:focus, a:active
 	text-decoration: none
+
 a, input
 	outline: none !important
+
+a[href^=tel]
+	color: inherit
+	text-decoration: none
 
 h1
 	color: #2f3430
@@ -655,7 +660,7 @@ h2
 	&:hover
 		// text-decoration: none
 		background: url(../img/bin-green.svg) no-repeat left center//url(../img/az-adv-search.png) no-repeat left center
-		color: #00B100//#15baff
+		color: #60B000//#15baff
 
 .az-obl
 	position: relative
@@ -843,6 +848,8 @@ h2
 		input, textarea, select
 			border: 3px solid #df0936
 			color: #df0936
+		select
+			line-height: 34px
 	&.style2
 		padding: 2px 0
 		label
@@ -1513,6 +1520,8 @@ h2
 	line-height: 16px
 	margin-bottom: 5px
 
+
+/*favorites*/
 .az-favorite-item
 	padding: 15px 0 5px
 	border-bottom: 1px dashed #bababa
@@ -1546,8 +1555,63 @@ h2
 	font-size: 22px
 	line-height: 20px
 	width: calc(100% - 80px)
-	min-height: 80px
+	// min-height: 50px
 	display: inline-block
 	text-align: left
 	padding-left: 10px
 	font-family: "RobotoCondensedBold"
+
+.az-fi-subtitle
+	color: #71b824
+	font-size: 22px
+	padding-left: 10px
+	display: inline-block
+	margin-bottom: 10px
+
+.az-ci-right
+	padding-left: 90px
+
+.az-dots
+	width: 100%
+	position: relative
+	margin-top: 10px
+	.az-d-left
+		position: relative
+		z-index: 3
+		float: left
+		background: #fff
+		padding-right: 2px
+		color: #3b413c
+		font-size: 16px
+		font-family: "RobotoCondensedBold"
+	.az-d-right
+		position: relative
+		z-index: 3
+		float: right
+		background: #fff
+		color: #3b413c
+		font-size: 16px
+		padding-left: 2px
+	&::before
+		content: ""
+		height: 2px
+		width: 100%
+		position: absolute
+		bottom: 5px
+		left: 0
+		z-index: 1
+		background: repeating-linear-gradient(to right, #3b413c 0, #3b413c 2px, #fff 2px, #fff 4px)
+	&::after
+		display: table
+		clear: both
+		content: ""
+
+.az-add-not
+	padding-left: 20px
+	background: url(../img/az-add-not.png) no-repeat left center
+	&:hover
+		background: url(../img/az-add-not-green.png) no-repeat left center
+/*favorites*/
+
+.az-mtb10
+	margin: 10px 0
