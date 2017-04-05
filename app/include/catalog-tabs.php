@@ -11,7 +11,7 @@
 						<div class="az-list-wrap">
 							<div class="az-list-item">
 								<div class="az-li-img">
-									<img src="img/ah-onevellag.jpg" alt="village image">
+									<img src="img/gray_1.svg" alt="village image">
 								</div>
 								<div class="az-li-cont">
 									<span class="az-li-title">Коттеджный поселок «Отрадное»</span>
@@ -24,7 +24,7 @@
 							</div>
 							<div class="az-list-item">
 								<div class="az-li-img">
-									<img src="img/ah-onevellag.jpg" alt="village image">
+									<img src="img/gray_1.svg" alt="village image">
 								</div>
 								<div class="az-li-cont">
 									<span class="az-li-title">Коттеджный поселок «Отрадное»</span>
@@ -37,7 +37,7 @@
 							</div>
 							<div class="az-list-item">
 								<div class="az-li-img">
-									<img src="img/ah-onevellag.jpg" alt="village image">
+									<img src="img/gray_1.svg" alt="village image">
 								</div>
 								<div class="az-li-cont">
 									<span class="az-li-title">Коттеджный поселок «Отрадное»</span>
