@@ -21,7 +21,7 @@
 									<div>
 										<div class="az-select style2 style6">
 											<select name="" id="vill2">
-												<option value="Ярославль">Ярославль</option>
+												<option value="Ярославль">Ярославльанспоранспор</option>
 												<option value="Ярославль2">Ярославль2</option>
 												<option value="Ярославль3">Ярославль3</option>
 											</select>
@@ -30,11 +30,11 @@
 								</div>
 								<div class="az-vill-section">
 									<div class="az-vs-title"><label for="vill3">Краткое описание:<span>*</span></label></div>
-									<div><textarea maxlength="300" name="" id="vill3">Удобный поселок расположенный в заволжском районе. В поселке есть електричество</textarea></div>
+									<div><textarea class="textarea-scrollbar scrollbar-outer" е время закончено строительство линии электропередач и строительство дорог внутри поселка. Имеется возможность газификации. Первая очередь уже газифицирована. ШРП на грани name="" id="vill3">Удобный поселок расположенный в заволжском районе. В поселке есть електричество</textarea></div>
 								</div>
 								<div class="az-vill-section">
 									<div class="az-vs-title"><label for="vill4">Полное описание:<span>*</span></label></div>
-									<div><textarea maxlength="300" class="style2" name="" id="vill4">В настоящее время закончено строительство линии электропередач и строительство дорог внутри поселка. Имеется возможность газификации. Первая очередь уже газифицирована. ШРП на границе участка. В настоящее время закончена внутренняя разводка газопровода и по второй </textarea></div>
+									<div><textarea class="textarea-scrollbar style2 scrollbar-outer" maxlength="500" class="style2" name="" id="vill4">В настоящее время закончено строительство линии электропередач и строительство дорог внутри поселка. Имеется возможность газификации. Первая очередь уже газифицирована. ШРП на границе участка. В настоящее время закончена внутренняя разводка газопровода и по второй </textarea></div>
 								</div>
 								<div class="az-vill-section">
 									<div class="az-vs-title"><label for="vill2">Категория земли:<span>*</span></label></div>
@@ -268,6 +268,7 @@
 					<div id="tabs-2">
 						<div class="az-second-tab">
 							<form action="/">
+								<a href="#" class="az-link az-hide az-left-right hidden-xs hidden-sm hidden-md">Скрыть</a>
 								<div class="az-st2-title hidden-xs hidden-sm hidden-md"><span>Заявка на выгрузку</span></div>
 								<div class="az-vill-section2 lg-style2">
 									<div class="az-vs-title"><label for="vill1">Файл с координатами: <span>(необязательно)</span></label></div>
@@ -279,7 +280,7 @@
 								</div>
 								<div class="az-vill-section2">
 									<div class="az-vs-title"><label for="vill1">Комментарий:</label></div>
-									<div><textarea maxlength="300" name="" id="">В настоящее время закончено строительство линии электропередач и строительство дорог внутри поселка. Имеется возможность газификации. Первая очередь уже газифицирована. ШРП на границе участка. В настоящее время закончена внутренняя разводка газопровода и по второй очереди. Удачное место для постоянного места жительства: близость города, транспортная доступность, рядом жилые районы города.</textarea></div>
+									<div><textarea maxlength="500" name="" id="">В настоящее время закончено строительство линии электропередач и строительство дорог внутри поселка. Имеется возможность газификации. Первая очередь уже газифицирована. ШРП на границе участка. В настоящее время закончена внутренняя разводка газопровода и по второй очереди. Удачное место для постоянного места жительства: близость города, транспортная доступность, рядом жилые районы города.</textarea></div>
 								</div>
 								<div class="az-vill-section2 style2">
 									<div class="az-vs-title"><label for="vill1">Отправить заявку<br>на выгрузку данных:</label></div>

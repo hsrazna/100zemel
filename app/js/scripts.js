@@ -228,4 +228,7 @@ $("#chooseGalleryImage").on('click', function(e) {
         }
         return false;
     });
+
+    $(".textarea-scrollbar").scrollbar();
+
 });

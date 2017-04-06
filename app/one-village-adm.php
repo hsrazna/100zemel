@@ -20,6 +20,7 @@
 	<link rel="stylesheet" href="libs/bootstrap-grid/bootstrap-grid.css">
 	<link rel="stylesheet" href="libs/font-awesome/font-awesome.min.css">
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css">
+	<link rel="stylesheet" href="libs/jquery.scrollbar/jquery.scrollbar.css">
 	<link rel="stylesheet" href="css/main.css">
 
 
@@ -57,6 +58,7 @@
 	<script src="libs/jquery-ui/jquery.ui.touch-punch.min.js"></script>
 	<script src="libs/jscolor-2.0.4/jscolor.min.js"></script>
 	<script src="libs/owl.carousel/owl.carousel.min.js"></script>
+	<script src="libs/jquery.scrollbar/jquery.scrollbar.min.js"></script>
 	<script src="js/scripts.js"></script>
 
 </body>
