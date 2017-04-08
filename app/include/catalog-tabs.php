@@ -53,6 +53,7 @@
 					<div id="cat-tabs-2">
 						<div class="az-cat-map-wrap">
 							<div id="cat-map"></div>
+							<div class="az-map-load">Загрузка данных...</div>
 						</div>
 						<script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 						<script type="text/javascript">
