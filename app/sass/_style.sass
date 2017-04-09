@@ -1543,97 +1543,7 @@ h2
 	margin-bottom: 5px
 
 
-/*favorites*/
-.az-favorite-item
-	padding: 15px 0 5px
-	border-bottom: 1px dashed #bababa
-	&::after
-		display: table
-		clear: both
-		content: ""
-	p
-		margin-top: 13px
-		font-size: 14px
-		color: #3b413c
-		line-height: 22px
-		text-align: left
 
-.az-fi-img
-	width: 80px
-	height: 80px
-	float: left
-	text-align: center
-	line-height: 78px
-	font-size: 0
-	border: 1px solid #bababa
-	img
-		max-width: 100%
-		width: auto
-		max-height: 100%
-		height: auto
-
-.az-fi-title
-	color: #3b413c
-	font-size: 22px
-	line-height: 20px
-	width: calc(100% - 80px)
-	// min-height: 50px
-	display: inline-block
-	text-align: left
-	padding-left: 10px
-	font-family: "RobotoCondensedBold"
-
-.az-fi-subtitle
-	color: #71b824
-	font-size: 22px
-	padding-left: 10px
-	display: inline-block
-	margin-bottom: 10px
-
-.az-ci-right
-	padding-left: 90px
-
-.az-dots
-	width: 100%
-	position: relative
-	margin-top: 10px
-	.az-d-left
-		position: relative
-		z-index: 3
-		float: left
-		background: #fff
-		padding-right: 2px
-		color: #3b413c
-		font-size: 16px
-		font-family: "RobotoCondensedBold"
-	.az-d-right
-		position: relative
-		z-index: 3
-		float: right
-		background: #fff
-		color: #3b413c
-		font-size: 16px
-		padding-left: 2px
-	&::before
-		content: ""
-		height: 2px
-		width: 100%
-		position: absolute
-		bottom: 5px
-		left: 0
-		z-index: 1
-		background: repeating-linear-gradient(to right, #3b413c 0, #3b413c 2px, #fff 2px, #fff 4px)
-	&::after
-		display: table
-		clear: both
-		content: ""
-
-.az-add-not
-	padding-left: 20px
-	background: url(../img/az-add-not.png) no-repeat left center
-	&:hover
-		background: url(../img/az-add-not-green.png) no-repeat left center
-/*favorites*/
 
 .az-mtb10
 	margin: 10px 0
@@ -1756,3 +1666,160 @@ h2
 	&:hover
 		background: url(../img/loc-green.svg) left center no-repeat
 		color: #60b000
+
+/*favorites*/
+.az-favorites-wrap
+	padding: 0
+	// margin-left: -6px
+	// margin-right: -6px
+	// border-bottom: 1px dashed #bababa
+
+.az-favorite-item
+	padding: 15px 6px 0
+	border-bottom: 4px solid #e1e1e1
+	margin-left: -6px
+	margin-right: -6px
+	&::after
+		display: table
+		clear: both
+		content: ""
+	p
+		margin-top: 13px
+		font-size: 14px
+		color: #3b413c
+		line-height: 22px
+		text-align: left
+
+.az-fi-img-wrap
+	width: 80px
+	float: left
+
+.az-fi-img
+	width: 100%
+	height: 80px
+	text-align: center
+	line-height: 78px
+	font-size: 0
+	border: 1px solid #bababa
+	img
+		max-width: 100%
+		width: auto
+		max-height: 100%
+		height: auto
+
+.az-fi-title
+	color: #3b413c
+	font-size: 22px
+	line-height: 20px
+	width: calc(100% - 80px)
+	display: inline-block
+	text-align: left
+	padding-left: 10px
+	font-family: "RobotoCondensedBold"
+
+.az-fi-subtitle
+	color: #71b824
+	font-size: 22px
+	padding-left: 10px
+	display: inline-block
+	margin-bottom: 10px
+
+.az-ci-right
+	padding-left: 90px
+
+.az-dots
+	width: 100%
+	position: relative
+	margin-top: 10px
+	.az-d-left
+		position: relative
+		z-index: 3
+		float: left
+		background: #fff
+		padding-right: 2px
+		color: #3b413c
+		font-size: 16px
+		font-family: "RobotoCondensedBold"
+	.az-d-right
+		position: relative
+		z-index: 3
+		float: right
+		background: #fff
+		color: #3b413c
+		font-size: 16px
+		padding-left: 2px
+	&::before
+		content: ""
+		height: 2px
+		width: 100%
+		position: absolute
+		bottom: 5px
+		left: 0
+		z-index: 1
+		background: repeating-linear-gradient(to right, #3b413c 0, #3b413c 2px, #fff 2px, #fff 4px)
+	&::after
+		display: table
+		clear: both
+		content: ""
+
+.az-add-not
+	padding-left: 20px
+	background: url(../img/az-add-not.png) no-repeat left center
+	&:hover
+		background: url(../img/az-add-not-green.png) no-repeat left center
+
+.az-fi-description
+	width: 100%
+	height: 85px
+	border: 1px solid #d1d1d1
+	border-radius: 5px
+	font-size: 18px
+	line-height: 22px
+	padding: 8px 10px 10px
+	color: #3b413c
+
+.az-fi-links
+	text-align: center
+	padding: 9px 0
+	a
+		margin: 0 18px
+
+.az-fi-check
+	padding-top: 10px
+	input[type="checkbox"]
+		display: none
+	label
+		width: 100%
+		height: 30px
+		background: #f8c301 url(../img/favorite-checkbox.png) no-repeat 5px center
+		display: inline-block
+		line-height: 30px
+		color: #3b413c
+		font-size: 14px
+		padding-left: 30px
+		cursor: pointer
+	input[type="checkbox"]:checked+label
+		background: #71b824 url(../img/favorite-checkbox-checked.png) no-repeat 5px center
+		color: #fff
+
+.az-favorites-zapis
+	text-align: center
+	padding: 20px 0
+	a
+		display: inline-block
+		width: 575px
+		height: 60px
+		color: #fff
+		font-family: "RobotoCondensedBold"
+		font-size: 26px
+		text-transform: uppercase
+		line-height: 52px
+		border: 4px solid #60b000
+		background: #60b000
+		border-radius: 5px
+		&:hover
+			background: #fff
+			color: #60b000
+
+
+/*favorites*/
