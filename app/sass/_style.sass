@@ -3,8 +3,21 @@
 @import "libs"
 @import "vars"
 
+html
+	height: 100%
+
 body
 	font-family: "RobotoCondensedRegular"
+	height: 100%
+
+.az-bufer
+	height: 140px
+
+.az-footer
+	margin-top: -140px
+
+.az-content
+	min-height: 100%
 
 *
 	padding: 0
@@ -1823,3 +1836,50 @@ h2
 
 
 /*favorites*/
+
+/*list*/
+.az-list
+	padding-bottom: 20px
+
+.az-list-title
+	font-size: 22px
+	font-family: "RobotoCondensedBold"
+	color: #3b413c
+	margin-top: 20px
+	margin-bottom: 10px
+
+.az-list-table
+	width: 100%
+	max-width: 575px
+	table
+		width: 100%
+		tr:nth-child(2n)
+			td
+				background: #f1f2f7
+		td
+			height: 40px
+			vertical-align: middle
+		td:nth-child(1)
+			width: 80px
+			text-align: center
+			color: #3b413c
+			font-size: 18px
+			font-family: "RobotoCondensedBold"
+		td:nth-child(2)
+			width: 200px
+			text-align: left
+			padding-left: 18px
+			a
+				color: #24beff
+				font-size: 18px
+				font-family: "RobotoCondensedBold"
+				text-decoration: underline
+				&:hover
+					text-decoration: none
+		td:nth-child(3)
+			width: 295px
+			padding-left: 18px
+			text-align: left
+			color: #3b413c
+			font-size: 18px
+			font-family: "RobotoCondensedRegular"
