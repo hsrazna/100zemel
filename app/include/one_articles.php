@@ -32,7 +32,7 @@
 				<div class="ah-onearticles-imgboxwrappall">
 					<div class="ah-onearticles-imgboxwrapp">
 						<div class="ah-onearticles-imgbox">
-							<a href="#" class="ah-onearticles-search"></a>
+							<a href="img/ah-articles.jpg" class="ah-onearticles-search image-popup-vertical-fit"></a>
 						</div>
 						<span class="ah-oneartimg-span hidden-xs">земельные участки под строитество</span>
 					</div>

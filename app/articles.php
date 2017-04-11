@@ -20,7 +20,6 @@
 	<link rel="stylesheet" href="libs/bootstrap-grid/bootstrap-grid.css">
 	<link rel="stylesheet" href="libs/font-awesome/font-awesome.min.css">
 	<link rel="stylesheet" href="libs/owl.carousel/assets/owl.carousel.css">
-	<link rel="stylesheet" href="libs/magnific-popup/dist/magnific-popup.css">
 	<link rel="stylesheet" href="css/main.css">
 
 
@@ -37,7 +36,7 @@
 
 	<?php require_once "include/header.php"; ?>
 	<?php require_once "include/breadcrumbs.php"; ?>
-	<?php require_once "include/one_articles.php"; ?>
+	<?php require_once "include/articles.php"; ?>
 	<?php require_once "include/footer.php"; ?>
 
 	<div class="hidden">
@@ -57,7 +56,6 @@
 	<script src="libs/jquery-ui/jquery.ui.touch-punch.min.js"></script>
 	<script src="libs/jscolor-2.0.4/jscolor.min.js"></script>
 	<script src="libs/owl.carousel/owl.carousel.min.js"></script>
-	<script src="libs/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
 	<script src="js/scripts.js"></script>
 
 </body>
