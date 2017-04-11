@@ -225,6 +225,8 @@ $("#chooseGalleryImage").on('click', function(e) {
         return false;
     });
 
-    $(".textarea-scrollbar").scrollbar();
+    if($(".textarea-scrollbar").length>0){
+	    $(".textarea-scrollbar").scrollbar();
+    }
 
 });
