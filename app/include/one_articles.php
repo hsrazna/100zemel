@@ -29,9 +29,68 @@
 					<p>После одобрения запроса, супруги получат соответствующий сертификат, по которому смогут получить субсидию не менее 35%, а при наличии в семье детей, размер субсидии составит как минимум 40%.</p>
 				</div>
 				<span  class="ah-onearticles-spanbox">Ученым, в отличии от остальных бюджетников, предоставляется шанс переехать в другой регион, если сам ученый захочет.</span>
+				<div class="ah-onearticles-imgboxwrappall">
+					<div class="ah-onearticles-imgboxwrapp">
+						<div class="ah-onearticles-imgbox">
+							<a href="#" class="ah-onearticles-search"></a>
+						</div>
+						<span class="ah-oneartimg-span">земельные участки под строитество</span>
+					</div>
+					<div class="ah-onearticles-imgboxtext">
+						<p>Молодой семье без собственного жилья государство предлагает всероссийские программы «Молодая семья», «Жилье для российской семьи», а также «Молодой семье – доступное жилье». Условия просты – возраст пары не более 30 лет. Помимо этого, соответствующие органы должны признать, что семья нуждается в улучшении условий проживания, после чего супруги встанут в очередь на получение муниципальной недвижимости. Это значит, что семья, состоящая из двух человек, может иметь как минимум 48 квадратных метра жилой площади, а при наличии детей – 18</p>
+					</div>
+				</div>
+				<div class="ah-onearticles-textbox">
+					<p>После одобрения запроса, супруги получат соответствующий сертификат, по которому смогут получить субсидию не менее 35%, а при наличии в семье детей, размер субсидии составит как минимум 40%.</p>
+				</div>
+				<div class="ah-onearticles-soc">
+					<ul class="ah-onearticles-soc">
+						<li>
+							<a href="#" class="ah-yell">
+								<i class="fa fa-odnoklassniki" aria-hidden="true"></i>
+								<span>SHARE</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="ah-blue1">
+								<i class="fa fa-facebook-official" aria-hidden="true"></i>
+								<span>SHARE</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="ah-blue2">
+								<i class="fa fa-vk" aria-hidden="true"></i>
+								<span>SHARE</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="ah-blue3">
+								<i class="fa fa-twitter" aria-hidden="true"></i>
+								<span>SHARE</span>
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-				
+				<div class="ah-onearticles-sidebar">
+					<span class="ah-onearticles-title1">Новости проекта</span>
+					<div class="ah-onearticles-sidebar_item">
+						<span class="ah-onearticles-datasp">23.02.2015</span>
+						<span class="ah-oneartsiditem-span">Ленобласть рассмотрит планировку ТПУ "Кудрово" с автовокзалом и метро</span>
+						<p class="ah-oneartsiditem-text">Эскиз планировки транспортно-пересадочного узла (ТПУ) «Кудрово» предполагает, что ТПУ будет располагаться на площади более 52 га на границе Кудрово и Свердловского городского поселения, примыкая к автодороге М-18 «Кола» и гипермаркету «Мега-Икеа».</p>
+					</div>
+					<div class="ah-onearticles-sidebar_item">
+						<span class="ah-onearticles-datasp">23.02.2015</span>
+						<span class="ah-oneartsiditem-span">Ленобласть рассмотрит планировку ТПУ "Кудрово" с автовокзалом и метро</span>
+						<p class="ah-oneartsiditem-text">Эскиз планировки транспортно-пересадочного узла (ТПУ) «Кудрово» предполагает, что ТПУ будет располагаться на площади более 52 га на границе Кудрово и Свердловского городского поселения, примыкая к автодороге М-18 «Кола» и гипермаркету «Мега-Икеа».</p>
+					</div>
+					<div class="ah-onearticles-sidebar_item">
+						<span class="ah-onearticles-datasp">23.02.2015</span>
+						<span class="ah-oneartsiditem-span">Ленобласть рассмотрит планировку ТПУ "Кудрово" с автовокзалом и метро</span>
+						<p class="ah-oneartsiditem-text">Эскиз планировки транспортно-пересадочного узла (ТПУ) «Кудрово» предполагает, что ТПУ будет располагаться на площади более 52 га на границе Кудрово и Свердловского городского поселения, примыкая к автодороге М-18 «Кола» и гипермаркету «Мега-Икеа».</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

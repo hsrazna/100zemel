@@ -17,11 +17,20 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
+	.az-list-table
+		table
+			td:nth-child(2)
+				padding-left: 2px
+			td:nth-child(3)
+				padding-left: 2px
 
+	.az-enter-inner
+		padding: 15px 15px 30px
 	/**/
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
+
 	/**/
 
 /* Custom, iPhone Retina */
@@ -44,6 +53,13 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px)
+	.az-bufer
+		height: 94px
+
+	.az-footer
+		margin-top: -95px
+		border-top: 1px dashed #bababa
+
 	/*header-top*/
 	.az-header-wrap
 		height: 40px
@@ -585,11 +601,91 @@
 	.az-notice
 		color: #3b413c
 
+	.az-favorites
+		border-bottom: 1px dashed #bababa
 
+	.az-favorite-item
+		position: relative
+		padding: 20px 0 15px
+		border-bottom: 1px dashed #bababa
+		margin-left: 0
+		margin-right: 0
+
+	.az-fi-img-wrap
+		width: 170px
+
+	.az-fi-img
+		height: 170px
+		line-height: 168px
+
+	.az-fi-cont
+		float: right
+		width: calc(100% - 170px)
+		padding-left: 15px
+
+	.az-fi-title
+		font-size: 28px
+		padding-left: 0
+
+	.az-fi-subtitle
+		font-size: 28px
+		padding-left: 0
+		line-height: 35px
+		margin-bottom: 10px
+
+	.az-ci-right
+		position: absolute
+		bottom: 0
+		right: 0
+		padding: 10px 0
+		// float: right
+
+	.az-ci-left
+		width: 230px
+		.az-dots
+			margin-top: 5px
+		// float: left
+
+	.az-cont-info
+		position: relative
+		&::after
+			display: table
+			content: ""
+			clear: both
+
+	.az-sm-mt20
+		margin-top: 20px
+
+	.az-fi-description
+		height: 100px
+
+	.az-fi-links
+		padding: 15px 0 10px
+		text-align: right
+		a
+			margin: 0 0 0 30px
+
+	.az-del-gal
+		position: absolute
+		top: 20px
+		right: 0
+		width: 20px
+		height: 20px
+		display: inline-block
+		background: #b2b2b2 url(../img/az-del-gal.png) no-repeat center
+
+	.az-list-title
+		font-size: 26px
 	/**/
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px)
+	.az-bufer
+		height: 79px
+
+	.az-footer
+		margin-top: -80px
+
 	/*select*/
 	.az-select
 		font-size: 16px
@@ -952,6 +1048,53 @@
 	.textarea-scrollbar
 		&.style3
 			height: 218px
+
+	.az-fi-img-wrap
+		width: 180px
+	
+	.az-fi-img
+		height: 180px
+		line-height: 178px
+
+	.az-fi-cont
+		width: calc(100% - 180px)
+		padding-left: 18px
+
+	.az-fi-title
+		font-size: 32px
+
+	.az-fi-subtitle
+		font-size: 32px
+		line-height: 35px
+		margin-bottom: 20px
+
+	.az-ci-right
+		padding: 20px 0
+
+	.az-ci-left
+		width: 260px
+		.az-dots
+			margin-top: 5px
+			.az-d-left, .az-d-right
+				font-size: 18px
+
+	.az-cont-info
+		position: relative
+		&::after
+			display: table
+			content: ""
+			clear: both
+
+	.az-sm-mb20
+		margin-bottom: 20px
+
+	.az-fi-description
+		height: 100px
+
+	.az-fi-links
+		padding: 10px 0 15px
+		a
+			margin: 0 0 0 35px
 	/**/
 
 /* Large Devices, Wide Screens */
