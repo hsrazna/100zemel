@@ -36,8 +36,16 @@ $(function() {
         }
 
         var str = '<div class="az-options clearfix">';
-        select.find('option').each(function(){
-            str+= '<div data-val="' +$(this).val() + '">' + $(this).text() + '</div>'
+        select.find('select>*').each(function(){
+        		if($(this).is("option")){
+	            str+= '<div data-val="' +$(this).val() + '">' + $(this).text() + '</div>';
+        		} else if($(this).is("optgroup")){
+        			str+= '<div class="az-optgroup"><div class="az-optgroup-title">' + $(this).attr("label") + '</div>';
+        			$(this).children("option").each(function(){
+        				str+= '<div data-val="' +$(this).val() + '">' + $(this).text() + '</div>';
+        			});
+        			str+= '</div>';
+        		}
         });
         str+= '</div>';
         select.html(select.html() + str);

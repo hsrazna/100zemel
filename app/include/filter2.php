@@ -34,10 +34,20 @@
 								<div class="az-sc-top"><span>Категория земли:</span></div>
 								<div class="az-select style2 style6">
 									<select name="">
-										<option value="Есть">Борисоглебский район</option>
-										<option value="Нет">Борисоглебский район2</option>
-										<option value="Нет">Борисоглебский район3</option>
-										<option value="Нет">Борисоглебский район4</option>
+										<option value="Борисоглебский район">Борисоглебский район</option>
+										<option value="Борисоглебский район2">Борисоглебский район2</option>
+										<option value="Борисоглебский район3">Борисоглебский район3</option>
+										<optgroup label="оптгруп1">
+											<option value="Борисоглебский район5">Борисоглебский район5</option>
+											<option value="Ведение личного подсобного хозяйства2">Ведение личного подсобного хозяйства2</option>
+										</optgroup>
+										<optgroup label="оптгруп2">
+											<option value="Борисоглебский район4">Борисоглебский район4</option>
+											<option value="Ведение личного подсобного хозяйства">Ведение личного подсобного хозяйства</option>
+										</optgroup>
+										<option value="Борисоглебский район5">Борисоглебский район5</option>
+										<option value="Борисоглебский район6">Борисоглебский район6</option>
+										<option value="Борисоглебский район7">Борисоглебский район7</option>
 									</select>
 								</div>
 							</div>
