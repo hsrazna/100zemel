@@ -138,7 +138,7 @@
 						</div>
 						<div class="az-tt-row">
 							<div class="az-tt-left"><span>Продажа земельного участка</span></div>
-							<div class="az-tt-right">∞</div>
+							<div class="az-tt-right"><span>без ограничений</span></div>
 						</div>
 						<div class="az-tt-row">
 							<div class="az-tt-left"><span>Продажа коттеджных поселков</span></div>
